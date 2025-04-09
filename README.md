@@ -21,4 +21,6 @@
 ---
 
 ![Profile view counter on GitHub](https://komarev.com/ghpvc/?username=Chenul-Thenuwara)
+![Visitor Count](https://profile-counter.glitch.me/{Chenul-Thenuwara}/count.svg)
+
 

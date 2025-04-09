@@ -19,8 +19,8 @@
 
 
 ---
-[![](https://visitcount.itsvg.in/api?id=Chenul-Thenuwara&icon=0&color=0)](https://visitcount.itsvg.in)
 
+[![Hits](https://u8views.com/api/v1/github/profiles/63663261/views/day-week-month-total-count.svg)](https://github.com/Chenul-Thenuwara)
 
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->

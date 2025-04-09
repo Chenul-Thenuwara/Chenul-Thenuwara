@@ -20,7 +20,5 @@
 
 ---
 
-[![Hits](https://u8views.com/api/v1/github/profiles/63663261/views/day-week-month-total-count.svg)](https://github.com/Chenul-Thenuwara)
+![Profile view counter on GitHub](https://komarev.com/ghpvc/?username=Chenul-Thenuwara)
 
-
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->

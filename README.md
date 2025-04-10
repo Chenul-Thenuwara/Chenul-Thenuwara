@@ -11,7 +11,7 @@
 </div>
 
 
-### 🚀 Most Impactful Contributions:
+# 🚀 Most Impactful Contributions:
 <div align="center">
   
 ![](https://github-contributor-stats.vercel.app/api?username=Chenul-Thenuwara&limit=5&theme=dark&combine_all_yearly_contributions=true)

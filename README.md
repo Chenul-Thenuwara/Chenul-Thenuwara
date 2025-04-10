@@ -1,6 +1,6 @@
 # 💫 About Me:
 <br>
-### Hello! I'm Chenul Dulmika Thenuwara,
+## Hello! I'm Chenul Dulmika Thenuwara,
 a passionate software engineering undergraduate at NSBM Green University, affiliated with Plymouth University. I specialize in Flutter development, Firebase integration, and IoT solutions, with a keen interest in blending hardware and software to create innovative applications.
 
 <br><be>

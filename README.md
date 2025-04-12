@@ -1,6 +1,6 @@
 <h1 align="left">
 <!--<img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35">-->
-<img src="https://readme-typing-svg.demolab.com/?lines=Hi+👋+ Hello! I+am+Chenul+Dulmika+Thenuwara+, ;&font=Fira%20Code&center=true&width=380&height=50&duration=4000&pause=1000" alt="Example Usage - README Typing SVG">
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Roboto+Mono&pause=1000&color=00E2FF&width=435&lines=Hello!+I'm+Chenul+Dulmika+Thenuwara+%2C" alt="Typing SVG" /></a>
 </h1>
 
 <!--# 💫Hello! I'm Chenul Dulmika Thenuwara,-->

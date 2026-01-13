@@ -5,7 +5,9 @@
 
 <div align="center">
   
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Chenul-Thenuwara&theme=dark&hide_border=true)](https://git.io/streak-stats)
+![](https://github-readme-stats.vercel.app/api?username=Chenul-Thenuwara&theme=solarized-light&hide_border=false&include_all_commits=false&count_private=false)<br/>
+![](https://nirzak-streak-stats.vercel.app/?user=Chenul-Thenuwara&theme=solarized-light&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=Chenul-Thenuwara&theme=solarized-light&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
 
 <p>&nbsp;</p>

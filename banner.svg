@@ -1,0 +1,291 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 320" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d" />
+      <stop offset="50%" stop-color="#070a13" />
+      <stop offset="100%" stop-color="#020408" />
+    </linearGradient>
+
+    <!-- Border Gradient -->
+    <linearGradient id="border-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="35%" stop-color="#8b5cf6" />
+      <stop offset="70%" stop-color="#ec4899" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+
+    <!-- Accent Text Gradient -->
+    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="50%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Subtle Glow for Text/Lines -->
+    <filter id="subtle-glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    /* Typography */
+    .font-mono {
+      font-family: 'Fira Code', 'JetBrains Mono', Consolas, Monaco, monospace;
+    }
+    .font-sans {
+      font-family: 'Outfit', 'Inter', -apple-system, sans-serif;
+    }
+
+    /* Base styles */
+    .terminal-window {
+      fill: url(#bg-grad);
+      stroke: url(#border-grad);
+      stroke-width: 1.5;
+      rx: 16px;
+    }
+
+    /* Keyframe Animations */
+    
+    /* Blinking Cursor */
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    .cursor {
+      animation: blink 1s infinite;
+      fill: #a855f7;
+    }
+
+    /* Floating Abstract Grid Particles */
+    @keyframes float-slow {
+      0%, 100% { transform: translateY(0px) rotate(0deg); opacity: 0.2; }
+      50% { transform: translateY(-10px) rotate(5deg); opacity: 0.5; }
+    }
+    @keyframes float-fast {
+      0%, 100% { transform: translateY(0px) rotate(0deg); opacity: 0.3; }
+      50% { transform: translateY(-15px) rotate(-8deg); opacity: 0.7; }
+    }
+    .floating-shape-1 {
+      animation: float-slow 8s ease-in-out infinite;
+      transform-origin: 650px 160px;
+    }
+    .floating-shape-2 {
+      animation: float-fast 6s ease-in-out infinite;
+      transform-origin: 720px 100px;
+    }
+
+    /* Border animation effect */
+    @keyframes border-pulse {
+      0%, 100% { stroke-opacity: 0.6; }
+      50% { stroke-opacity: 1; }
+    }
+    .terminal-window {
+      animation: border-pulse 4s ease-in-out infinite;
+    }
+
+    /* Floating developer art pulses */
+    @keyframes tech-pulse {
+      0%, 100% { transform: scale(1); opacity: 0.8; }
+      50% { transform: scale(1.05); opacity: 1; filter: drop-shadow(0 0 12px rgba(168, 85, 247, 0.6)); }
+    }
+    .core-avatar {
+      animation: tech-pulse 5s ease-in-out infinite;
+      transform-origin: 680px 160px;
+    }
+
+    /* Glowing connections */
+    @keyframes dash {
+      to {
+        stroke-dashoffset: -40;
+      }
+    }
+    .pulsing-line {
+      stroke-dasharray: 8;
+      animation: dash 2s linear infinite;
+    }
+  </style>
+
+  <!-- Background card wrapper with subtle shadow -->
+  <rect x="5" y="5" width="840" height="310" rx="18" fill="#030712" />
+
+  <!-- Terminal Card -->
+  <rect x="15" y="15" width="820" height="290" class="terminal-window" />
+
+  <!-- Terminal Top Bar Window Controls (macOS style) -->
+  <g transform="translate(35, 38)">
+    <circle cx="0" cy="0" r="6" fill="#ef4444" />
+    <circle cx="20" cy="0" r="6" fill="#f59e0b" />
+    <circle cx="40" cy="0" r="6" fill="#10b981" />
+  </g>
+  
+  <text x="425" y="42" fill="#4b5563" font-size="12" font-weight="600" class="font-mono" text-anchor="middle">
+    chenul@workspace:~
+  </text>
+
+  <!-- Split Divider Line -->
+  <line x1="520" y1="65" x2="520" y2="280" stroke="#1f2937" stroke-width="1.5" stroke-dasharray="4 4" />
+
+  <!-- LEFT SIDE: Terminal Simulation (Interactive Typing/Display) -->
+  <g transform="translate(45, 85)" class="font-mono" font-size="14" fill="#e5e7eb">
+    <!-- Row 1: Greeting -->
+    <text x="0" y="0" font-size="18" font-weight="700" fill="#f3f4f6">
+      $ <tspan fill="#3b82f6">neofetch</tspan>
+    </text>
+
+    <!-- Row 2: User details -->
+    <g transform="translate(10, 30)">
+      <text x="0" y="0" fill="#a855f7" font-weight="600">user</text>
+      <text x="100" y="0" fill="#9ca3af">:</text>
+      <text x="120" y="0" fill="#f3f4f6" font-weight="700">Chenul Thenuwara</text>
+    </g>
+
+    <!-- Row 3: Role -->
+    <g transform="translate(10, 55)">
+      <text x="0" y="0" fill="#a855f7" font-weight="600">role</text>
+      <text x="100" y="0" fill="#9ca3af">:</text>
+      <!-- Sequenced animation typing effect for roles -->
+      <text x="120" y="0" fill="#3b82f6" font-weight="700">
+        <animate 
+          attributeName="opacity" 
+          values="1;0;0;1;1" 
+          keyTimes="0;0.22;0.5;0.52;1" 
+          dur="8s" 
+          repeatCount="indefinite" 
+        />
+        Full Stack Developer
+      </text>
+      <text x="120" y="0" fill="#ec4899" font-weight="700" opacity="0">
+        <animate 
+          attributeName="opacity" 
+          values="0;1;1;0;0" 
+          keyTimes="0;0.25;0.47;0.5;1" 
+          dur="8s" 
+          repeatCount="indefinite" 
+        />
+        Creative Tech Maker
+      </text>
+      <text x="120" y="0" fill="#10b981" font-weight="700" opacity="0">
+        <animate 
+          attributeName="opacity" 
+          values="0;0;0;1;1;0" 
+          keyTimes="0;0.5;0.52;0.72;0.97;1" 
+          dur="8s" 
+          repeatCount="indefinite" 
+        />
+        UI/UX Developer
+      </text>
+      <text x="120" y="0" fill="#f59e0b" font-weight="700" opacity="0">
+        <animate 
+          attributeName="opacity" 
+          values="0;0;0;0;0;1" 
+          keyTimes="0;0.75;0.77;0.97;0.97;1" 
+          dur="8s" 
+          repeatCount="indefinite" 
+        />
+        AI Explorer
+      </text>
+    </g>
+
+    <!-- Row 4: Status -->
+    <g transform="translate(10, 80)">
+      <text x="0" y="0" fill="#a855f7" font-weight="600">status</text>
+      <text x="100" y="0" fill="#9ca3af">:</text>
+      <text x="120" y="0" fill="#10b981">● Active <tspan fill="#6b7280" font-weight="normal">(Building next-gen ideas)</tspan></text>
+    </g>
+
+    <!-- Row 5: Core Tech Stack terminal style -->
+    <g transform="translate(10, 105)">
+      <text x="0" y="0" fill="#a855f7" font-weight="600">skills</text>
+      <text x="100" y="0" fill="#9ca3af">:</text>
+      <text x="120" y="0" fill="#f3f4f6">JS/TS, React, Node.js, Python, CSS/HTML</text>
+    </g>
+
+    <!-- Row 6: Interactive Terminal command & Output simulation -->
+    <g transform="translate(0, 145)">
+      <text x="0" y="0" font-weight="700" fill="#f3f4f6">
+        $ <tspan fill="#3b82f6">cat</tspan> philosophy.txt
+      </text>
+      <text x="10" y="25" fill="#9ca3af" font-size="13">
+        "Code is poetry that executes. 
+      </text>
+      <text x="10" y="45" fill="#9ca3af" font-size="13">
+        Design is the silent ambassador of your ideas."
+      </text>
+    </g>
+
+    <!-- Command line cursor at bottom -->
+    <g transform="translate(0, 210)">
+      <text x="0" y="0" font-weight="700" fill="#f3f4f6">
+        $ <tspan fill="#10b981">running</tspan> awesome_projects.sh
+      </text>
+      <rect x="310" y="-12" width="8" height="15" class="cursor" />
+    </g>
+  </g>
+
+  <!-- RIGHT SIDE: Stunning Neon/Sci-fi Graphic & Floating Particles -->
+  <!-- Floating abstract geometries -->
+  <g class="floating-shape-1">
+    <polygon points="630,90 645,100 635,115 620,105" fill="none" stroke="#3b82f6" stroke-width="1.5" stroke-opacity="0.4" />
+    <circle cx="580" cy="180" r="3" fill="#ec4899" opacity="0.6"/>
+  </g>
+  
+  <g class="floating-shape-2">
+    <circle cx="730" cy="220" r="4" fill="none" stroke="#a855f7" stroke-width="1" />
+    <polygon points="710,80 720,75 725,85" fill="none" stroke="#10b981" stroke-width="1" stroke-opacity="0.5" />
+  </g>
+
+  <!-- Core Pulsing Graphic -->
+  <g class="core-avatar" transform="translate(10, 0)">
+    <!-- Outer Orbit Circle -->
+    <circle cx="670" cy="170" r="85" fill="none" stroke="#1f2937" stroke-width="1" />
+    
+    <!-- Neon Accent Orbits -->
+    <circle cx="670" cy="170" r="65" fill="none" stroke="url(#border-grad)" stroke-width="1.5" stroke-opacity="0.3" />
+    <circle cx="670" cy="170" r="45" fill="none" stroke="#ec4899" stroke-width="1" stroke-dasharray="6 30" class="pulsing-line" />
+    <circle cx="670" cy="170" r="80" fill="none" stroke="#3b82f6" stroke-width="1.5" stroke-dasharray="10 40" class="pulsing-line" style="animation-direction: reverse; animation-duration: 4s;" />
+    
+    <!-- Floating Tech Nodes & Connections -->
+    <!-- Nodes -->
+    <circle cx="670" cy="105" r="5" fill="#3b82f6" filter="url(#subtle-glow)" /> <!-- Node Top -->
+    <circle cx="605" cy="170" r="5" fill="#a855f7" filter="url(#subtle-glow)" /> <!-- Node Left -->
+    <circle cx="735" cy="170" r="5" fill="#ec4899" filter="url(#subtle-glow)" /> <!-- Node Right -->
+    <circle cx="670" cy="235" r="5" fill="#10b981" filter="url(#subtle-glow)" /> <!-- Node Bottom -->
+    
+    <!-- Center Premium Shield/Hexagon -->
+    <g transform="translate(670, 170)">
+      <!-- Outer Glow -->
+      <polygon points="0,-30 26,-15 26,15 0,30 -26,15 -26,-15" fill="url(#bg-grad)" stroke="url(#text-grad)" stroke-width="2.5" filter="url(#glow)" />
+      
+      <!-- Inner Design Element -->
+      <path d="M-12,-8 L0,-20 L12,-8 L12,8 L0,20 L-12,8 Z" fill="none" stroke="#ffffff" stroke-width="1.2" opacity="0.9" />
+      
+      <!-- Logo Letters: CT -->
+      <text x="0" y="6" font-size="17" font-weight="900" fill="#ffffff" class="font-sans" text-anchor="middle" letter-spacing="1">
+        CT
+      </text>
+    </g>
+
+    <!-- Connections to center -->
+    <line x1="670" y1="110" x2="670" y2="135" stroke="#3b82f6" stroke-width="1" opacity="0.6" />
+    <line x1="610" y1="170" x2="640" y2="170" stroke="#a855f7" stroke-width="1" opacity="0.6" />
+    <line x1="730" y1="170" x2="700" y2="170" stroke="#ec4899" stroke-width="1" opacity="0.6" />
+    <line x1="670" y1="230" x2="670" y2="205" stroke="#10b981" stroke-width="1" opacity="0.6" />
+  </g>
+
+  <!-- Glowing bottom indicator -->
+  <line x1="45" y1="304" x2="805" y2="304" stroke="url(#border-grad)" stroke-width="2" stroke-linecap="round" opacity="0.8" />
+</svg>

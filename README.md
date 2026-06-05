@@ -34,8 +34,6 @@ I am a passionate **Software Engineer** and **Full-Stack Developer** dedicated t
   <img src="divider.svg" width="100%" />
 </p>
 
-## 🍱 Interactive Bento Grid Dashboard
-
 <p align="center">
   <a href="https://github.com/Chenul-Thenuwara">
     <!-- Hover-active, animated, glassmorphic bento grid containing core concepts and technology loops -->

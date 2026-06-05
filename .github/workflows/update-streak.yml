@@ -1,0 +1,46 @@
+name: Update Streak Stats
+
+on:
+  schedule:
+    # Run once every 24 hours at midnight UTC
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      # Run only if workflow itself is modified, to test it
+      - '.github/workflows/update-streak.yml'
+
+jobs:
+  update-streak:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Generate streak stats
+        uses: be-next/github-streak-stats-action@v1
+        with:
+          username: 'Chenul-Thenuwara'
+          token: ${{ secrets.GITHUB_TOKEN }}
+          output-path: 'streak.svg'
+          background: '04060a'
+          stroke: '1f2937'
+          ring: '00f0ff'
+          fire: 'ff007f'
+          currStreakNum: 'e5e7eb'
+          sideNums: 'e5e7eb'
+          sideLabels: '9ca3af'
+          dates: '9ca3af'
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add streak.svg
+          git commit -m "chore: update streak.svg statistics [skip ci]" || exit 0
+          git push origin main

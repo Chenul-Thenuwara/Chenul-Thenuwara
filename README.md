@@ -76,7 +76,7 @@ I am a passionate **Software Engineer** and **Full-Stack Developer** dedicated t
     <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Chenul-Thenuwara&show_icons=true&bg_color=04060a&title_color=00f0ff&icon_color=a855f7&text_color=e5e7eb&border_color=1f2937&hide_border=false" alt="Chenul's GitHub Stats" height="195px" />
   </a>&nbsp;&nbsp;
   <a href="https://github.com/Chenul-Thenuwara">
-    <img src="https://streak-stats.demolab.com/?user=Chenul-Thenuwara&amp;background=04060a&amp;ring=00f0ff&amp;fire=ff007f&amp;currStreakNum=e5e7eb&amp;sideNums=e5e7eb&amp;sideLabels=9ca3af&amp;dates=9ca3af&amp;hide_border=false&amp;border=1f2937" alt="Chenul's Streak Stats" height="195px" />
+    <img src="streak.svg" alt="Chenul's Streak Stats" height="195px" />
   </a>
 </p>
 

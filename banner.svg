@@ -187,7 +187,7 @@
     <!-- LEFT SIDE: Glassmorphic Personal Identity -->
     <g transform="translate(45, 60)" class="font-sans">
       <!-- Handwritten Signature Block (Martin Heinz style) -->
-      <g transform="translate(0, 15) rotate(-5)">
+      <g transform="translate(0, 25) rotate(-5)">
         <text x="0" y="0" font-size="36" fill="#00f0ff" class="font-handwritten-brush" filter="url(#subtle-glow)">
           Chenul Thenuwara
         </text>

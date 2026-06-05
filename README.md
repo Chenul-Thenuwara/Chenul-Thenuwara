@@ -1,16 +1,23 @@
-<!-- Beautiful glowing banner -->
+<!-- Awwwards-style Futuristic Header Banner -->
 <p align="center">
   <a href="https://github.com/Chenul-Thenuwara">
-    <img src="banner.svg" alt="Chenul Thenuwara Banner" width="100%" />
+    <img src="banner.svg" alt="Chenul Dulmika Thenuwara Cyber Banner" width="100%" />
   </a>
 </p>
 
-<!-- Quick statistics metrics badges -->
+<!-- Live interactive statistics pill badges -->
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=Chenul-Thenuwara&label=PROFILE+VIEWS&color=3b82f6&style=flat-square" alt="Profile Views" />&nbsp;
-  <img src="https://img.shields.io/github/followers/Chenul-Thenuwara?label=FOLLOWERS&color=a855f7&style=flat-square" alt="Followers" />&nbsp;
-  <img src="https://img.shields.io/badge/STATUS-BUILDING-10b981?style=flat-square" alt="Status" />
+  <img src="https://komarev.com/ghpvc/?username=Chenul-Thenuwara&label=PROFILE+VIEWS&color=3b82f6&style=flat-square" alt="Profile Views" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/STATUS-INNOVATING-10b981?style=flat-square" alt="Status" />
 </div>
+
+<p align="center">
+  <img src="divider.svg" width="100%" />
+</p>
+
+# Hi there, I'm Chenul Dulmika Thenuwara! 👋
+
+I am a passionate **Software Engineer** and **Full-Stack Developer** dedicated to building robust, scalable, and performance-driven digital solutions. I specialize in modern web ecosystems, cross-platform mobile development, and automated workflows.
 
 <p align="center">
   <img src="divider.svg" width="100%" />
@@ -18,93 +25,90 @@
 
 ## 🚀 About Me
 
-Hello! I'm **Chenul Thenuwara**, a full-stack developer committed to crafting sleek, high-performance web applications and design systems. I specialize in merging advanced technical engineering with refined aesthetics.
-
-- ⚡ **Focus:** Building responsive React applications, server architectures, and automation systems.
-- 🤖 **Interests:** Machine learning models, prompt engineering, agentic tools, and interactive SVGs.
-- 🎨 **Approach:** Creating fluid user interfaces with micro-animations, glassmorphic layouts, and high-fidelity designs.
-
-<p align="center">
-  <img src="divider.svg" width="100%" />
-</p>
-
-## 🛠️ Tech Stack & Toolkit
-
-<div align="center">
-  <h3>💻 Frontend Architecture</h3>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-  
-  <br/>
-  <h3>⚙️ Backend &amp; Databases</h3>
-  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
-
-  <br/>
-  <h3>🔧 Tools, Design &amp; DevOps</h3>
-  <img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
-</div>
+- 🎓 **Education:** Final-year BSc (Honours) Software Engineering undergraduate at **NSBM Green University** (in association with **Plymouth University**) — graduating November 2026.
+- 💼 **Current Role:** IT Intern at **Anunine Holdings Private Limited**.
+- 🛠️ **Core Focus:** Building seamless user interfaces, developing optimized backend structures, and exploring self-hosted infrastructure.
+- 🧠 **Tech Passions:** Beyond software, I have a deep interest in smart home architectures (Tuya/Zigbee environments), audio engineering systems, and automation.
 
 <p align="center">
   <img src="divider.svg" width="100%" />
 </p>
 
-## 📊 GitHub Insights & Metrics
+## 🍱 Interactive Bento Grid Dashboard
 
-<div align="center">
-  <table border="0" cellpadding="0" cellspacing="0" style="border: none; border-collapse: collapse;">
-    <tr style="border: none;">
-      <td style="border: none; padding: 10px;">
-        <img src="https://github-readme-stats.vercel.app/api?username=Chenul-Thenuwara&show_icons=true&theme=tokyonight&bg_color=030712&title_color=3b82f6&icon_color=a855f7&text_color=e5e7eb&border_color=1f2937&hide_border=false" alt="Chenul's GitHub Stats" height="195px" />
-      </td>
-      <td style="border: none; padding: 10px;">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=Chenul-Thenuwara&theme=tokyonight&background=030712&ring=a855f7&fire=ec4899&currStreakNum=e5e7eb&sideNums=e5e7eb&sideLabels=9ca3af&dates=9ca3af&hide_border=false&border=1f2937" alt="Chenul's Streak Stats" height="195px" />
-      </td>
-    </tr>
-  </table>
-  <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Chenul-Thenuwara&layout=compact&theme=tokyonight&bg_color=030712&title_color=3b82f6&icon_color=a855f7&text_color=e5e7eb&border_color=1f2937&hide_border=false" alt="Top Languages" width="400px" />
-</div>
+<p align="center">
+  <a href="https://github.com/Chenul-Thenuwara">
+    <!-- Hover-active, animated, glassmorphic bento grid containing core concepts and technology loops -->
+    <img src="bento.svg" alt="Interactive Developer Dashboard" width="100%" />
+  </a>
+</p>
 
 <p align="center">
   <img src="divider.svg" width="100%" />
 </p>
 
-## 📈 Contribution Activity
+## 🛠️ Tech Stack & Tools
 
-<p align="center">
-  <!-- Beautiful contribution grid snake game -->
-  <img src="https://raw.githubusercontent.com/Chenul-Thenuwara/Chenul-Thenuwara/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Grid Snake" width="100%" />
-</p>
-
-<br/>
+| Category | Technologies |
+| :--- | :--- |
+| **Frontend Ecosystem** | <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" /> <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" /> <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" /> <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" /> <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" /> <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" /> |
+| **Backend & Databases** | <img src="https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white" /> <img src="https://img.shields.io/badge/Express.js-404D59?style=flat-square&logo=express&logoColor=white" /> <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" /> <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white" /> |
+| **Cross-Platform** | <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" /> <img src="https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white" /> |
+| **DevOps & Productivity** | <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white" /> <img src="https://img.shields.io/badge/GitHub_Copilot-8C4FFF?style=flat-square&logo=githubcopilot&logoColor=white" /> <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" /> <img src="https://img.shields.io/badge/Agile-0052CC?style=flat-square&logo=jira&logoColor=white" /> |
 
 <p align="center">
   <img src="divider.svg" width="100%" />
 </p>
 
-## 🤝 Let's Connect!
+## ⚙️ Development Environment
 
-<div align="center">
-  <a href="mailto:chenul@outlook.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+- 🖥️ **OS/Environment:** Production-ready minimalist setup with a keen eye for workstation performance.
+- 🎧 **Hardware Preferences:** High-polling-rate peripherals, clean mechanical interfaces, and high-fidelity studio layout monitoring.
+
+<p align="center">
+  <img src="divider.svg" width="100%" />
+</p>
+
+## 📊 GitHub Statistics
+
+<p align="center">
+  <a href="https://github.com/Chenul-Thenuwara">
+    <img src="https://github-readme-stats.vercel.app/api?username=Chenul-Thenuwara&show_icons=true&theme=tokyonight&bg_color=030712&title_color=3b82f6&icon_color=a855f7&text_color=e5e7eb&border_color=1f2937&hide_border=false" alt="Chenul's GitHub Stats" height="195px" />
   </a>&nbsp;&nbsp;
-  <a href="https://linkedin.com/in/chenul" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  <a href="https://github.com/Chenul-Thenuwara">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Chenul-Thenuwara&theme=tokyonight&background=030712&ring=a855f7&fire=ec4899&currStreakNum=e5e7eb&sideNums=e5e7eb&sideLabels=9ca3af&dates=9ca3af&hide_border=false&border=1f2937" alt="Chenul's Streak Stats" height="195px" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Chenul-Thenuwara">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Chenul-Thenuwara&layout=compact&theme=tokyonight&bg_color=030712&title_color=3b82f6&icon_color=a855f7&text_color=e5e7eb&border_color=1f2937&hide_border=false" alt="Top Languages Summary" width="400px" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="divider.svg" width="100%" />
+</p>
+
+## 📈 Automated Contribution Flow
+
+<p align="center">
+  <!-- Contribution grid rendered into an active snake chase -->
+  <img src="https://raw.githubusercontent.com/Chenul-Thenuwara/Chenul-Thenuwara/output/github-contribution-grid-snake-dark.svg" alt="Automated Git Contribution History" width="100%" />
+</p>
+
+<p align="center">
+  <img src="divider.svg" width="100%" />
+</p>
+
+## 🤝 Connect with Me
+
+<div align="center">
+  <a href="https://www.linkedin.com/in/chenul-thenuwara-26b73a240/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Profile" />
   </a>&nbsp;&nbsp;
-  <a href="https://github.com/Chenul-Thenuwara" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  <a href="mailto:chenuldulmikathenuwara@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Direct" />
   </a>
 </div>
 
@@ -113,5 +117,5 @@ Hello! I'm **Chenul Thenuwara**, a full-stack developer committed to crafting sl
 ---
 
 <p align="center">
-  Designed &amp; coded with ❤️ by <a href="https://github.com/Chenul-Thenuwara">Chenul Thenuwara</a>.
+  Designed &amp; engineered with ❤️ by <a href="https://github.com/Chenul-Thenuwara">Chenul Thenuwara</a>.
 </p>

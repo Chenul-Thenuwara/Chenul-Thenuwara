@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 450" width="100%" height="100%" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 380" width="100%" height="100%" fill="none">
   <defs>
     <!-- Background Gradients -->
     <linearGradient id="bg-main" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -14,7 +14,7 @@
     </linearGradient>
 
     <!-- Glowing Cyber-Minimalist Border Gradient -->
-    <linearGradient id="border-holo" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="border-holo" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.4" />
       <stop offset="50%" stop-color="#a855f7" stop-opacity="0.15" />
       <stop offset="100%" stop-color="#ff007f" stop-opacity="0.4" />
@@ -25,7 +25,7 @@
       <stop offset="0%" stop-color="#00f0ff" />
       <stop offset="100%" stop-color="#8c8cff" />
     </linearGradient>
-    
+
     <linearGradient id="grad-text-holo" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#00f0ff" />
       <stop offset="50%" stop-color="#a855f7" />
@@ -45,18 +45,10 @@
         <feMergeNode in="SourceGraphic" />
       </feMerge>
     </filter>
-    
-    <filter id="glow-light" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="3" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
   </defs>
 
   <style>
-    /* Styling and Custom Fonts */
+    /* Styling & Custom Fonts */
     @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&amp;family=Fira+Code:wght@500;700&amp;display=swap');
     
     .font-sans {
@@ -66,7 +58,13 @@
       font-family: 'Fira Code', monospace;
     }
 
-    /* Card Interactive Tilt effect */
+    /* Slanted text styles */
+    .slanted-text {
+      font-style: italic;
+      text-transform: uppercase;
+    }
+
+    /* Card Interactive hover styling */
     .bento-card {
       fill: url(#card-grad);
       stroke: url(#border-holo);
@@ -75,7 +73,6 @@
       transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
     }
     
-    /* Interactive hover states */
     .card-group {
       cursor: pointer;
     }
@@ -84,161 +81,72 @@
       stroke-opacity: 1;
       filter: drop-shadow(0px 8px 24px rgba(168, 85, 247, 0.12));
     }
-    .card-group:hover .hover-scale {
-      transform: scale(1.03);
-    }
-    .card-group:hover .hover-glow {
-      filter: url(#glow-heavy);
-      fill: #ffffff;
-    }
 
-    /* Custom Animations */
-    
     /* Infinite Horizontal Loop Marquee */
     @keyframes marquee {
       0% { transform: translateX(0); }
-      100% { transform: translateX(-440px); }
+      100% { transform: translateX(-800px); }
     }
     .marquee-content {
-      animation: marquee 16s linear infinite;
+      animation: marquee 20s linear infinite;
     }
     .marquee-content:hover {
       animation-play-state: paused;
     }
 
-    /* Live wave chart animation */
-    @keyframes pulse-wave {
-      0% { stroke-dashoffset: 600; }
-      100% { stroke-dashoffset: 0; }
-    }
-    .live-wave {
-      stroke: url(#grad-text-holo);
-      stroke-width: 2.5;
-      stroke-linecap: round;
-      stroke-dasharray: 600;
-      stroke-dashoffset: 600;
-      animation: pulse-wave 4.5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
-    }
-    @keyframes heartbeat {
-      0%, 100% { transform: scale(1); opacity: 0.8; }
-      50% { transform: scale(1.2); opacity: 1; }
-    }
-    .heart-dot {
-      animation: heartbeat 1.5s ease-in-out infinite;
-      transform-origin: 792px 365px;
-    }
-
-    /* Gyroscope rotation in Card 2 */
-    @keyframes gyro-rotate {
-      0% { transform: rotate(0deg); }
-      100% { transform: rotate(360deg); }
-    }
-    .spin-ring {
-      animation: gyro-rotate 22s linear infinite;
-      transform-origin: 325px 125px;
-    }
-    .spin-ring-reverse {
-      animation: gyro-rotate 14s linear infinite reverse;
-      transform-origin: 325px 125px;
-    }
-
-    /* Floating bubble nodes */
+    /* Floating bubbles */
     @keyframes float-node {
       0%, 100% { transform: translateY(0); }
       50% { transform: translateY(-8px); }
     }
     .bubble-1 { animation: float-node 4s ease-in-out infinite; }
     .bubble-2 { animation: float-node 6s ease-in-out infinite; }
-
-    /* Transitions helper */
-    .hover-scale, .hover-glow {
-      transition: all 0.4s ease-out;
-    }
   </style>
 
   <!-- Background Base Canvas -->
-  <rect width="850" height="450" rx="20" fill="url(#bg-main)" stroke="#111827" stroke-width="2" />
-  <rect width="850" height="450" rx="20" fill="url(#dot-grid)" />
-  
-  <!-- Subtle futuristic lines -->
-  <g stroke="#ffffff" stroke-opacity="0.015" stroke-width="1">
-    <line x1="50" y1="0" x2="50" y2="450" />
-    <line x1="150" y1="0" x2="150" y2="450" />
-    <line x1="250" y1="0" x2="250" y2="450" />
-    <line x1="350" y1="0" x2="350" y2="450" />
-    <line x1="450" y1="0" x2="450" y2="450" />
-    <line x1="550" y1="0" x2="550" y2="450" />
-    <line x1="650" y1="0" x2="650" y2="450" />
-    <line x1="750" y1="0" x2="750" y2="450" />
-    
-    <line x1="0" y1="50" x2="850" y2="50" />
-    <line x1="0" y1="150" x2="850" y2="150" />
-    <line x1="0" y1="250" x2="850" y2="250" />
-    <line x1="0" y1="350" x2="850" y2="350" />
-  </g>
+  <rect width="850" height="380" rx="20" fill="url(#bg-main)" stroke="#111827" stroke-width="2" />
+  <rect width="850" height="380" rx="20" fill="url(#dot-grid)" />
 
-  <!-- ================= CARD 1: ACADEMICS AND ROLES (TOP-LEFT: 440x220) ================= -->
+  <!-- ================= CARD 1: ACADEMICS & BIO (TOP: 820x180) ================= -->
   <g class="card-group" transform="translate(15, 15)">
-    <rect width="440" height="220" class="bento-card" />
+    <rect width="820" height="180" class="bento-card" />
     
     <!-- Title / Tag -->
     <rect x="25" y="25" width="100" height="26" rx="13" fill="#00f0ff" fill-opacity="0.1" stroke="#00f0ff" stroke-opacity="0.3" />
     <text x="75" y="42" font-size="10" font-weight="700" fill="#00f0ff" class="font-mono" text-anchor="middle">ACADEMICS</text>
     
-    <text x="25" y="85" font-size="28" font-weight="900" fill="#ffffff" class="font-sans" letter-spacing="-0.5">
-      BSc Hons <tspan fill="url(#grad-text-blue)">Software Eng.</tspan>
+    <!-- Bold Typography Heading -->
+    <text x="25" y="85" font-size="28" font-weight="900" fill="#ffffff" class="font-sans letter-spacing="-0.5">
+      BSc Hons <tspan fill="url(#grad-text-blue)">Software Engineering</tspan>
     </text>
     
-    <text x="25" y="122" font-size="14" fill="#e5e7eb" font-weight="700" class="font-sans">NSBM Green University / Plymouth Univ</text>
+    <text x="25" y="120" font-size="14" fill="#e5e7eb" font-weight="700" class="font-sans">NSBM Green University / Plymouth University</text>
     
-    <!-- Info Bullets -->
-    <g transform="translate(25, 142)" font-size="13" fill="#9ca3af" class="font-sans">
-      <text x="0" y="10">• Completing final year - graduating November 2026.</text>
-      <text x="0" y="30">• IT Intern at Anunine Holdings Private Limited.</text>
-      <text x="0" y="50">• Focus: optimized structures and performance scales.</text>
+    <!-- Bio info columns (2-column layout to fill width nicely) -->
+    <g transform="translate(25, 140)" font-size="13" fill="#9ca3af" class="font-sans" font-weight="600">
+      <text x="0" y="10">• Final-year undergraduate — graduating November 2026.</text>
+      <text x="0" y="28">• IT Intern at Anunine Holdings Private Limited.</text>
+      
+      <text x="430" y="10">• Focus: Full-Stack Web Development &amp; Software Design.</text>
+      <text x="430" y="28">• Passions: Generative AI, DevOps, &amp; Workflow Automation.</text>
     </g>
 
     <!-- Floating bubbles to look interactive -->
-    <circle cx="395" cy="45" r="4.5" fill="#a855f7" class="bubble-1 hover-glow" />
-    <circle cx="410" cy="65" r="6.5" fill="#ff007f" class="bubble-2 hover-glow" />
+    <circle cx="780" cy="40" r="4.5" fill="#a855f7" class="bubble-1" />
+    <circle cx="795" cy="58" r="6.5" fill="#ff007f" class="bubble-2" />
   </g>
 
-  <!-- ================= CARD 2: AUTOMATION AND GEN AI (TOP-RIGHT: 360x220) ================= -->
-  <g class="card-group" transform="translate(475, 15)">
-    <rect width="360" height="220" class="bento-card" />
+  <!-- ================= CARD 2: TECH STACK SLIDER (BOTTOM: 820x150) ================= -->
+  <g class="card-group" transform="translate(15, 215)">
+    <rect width="820" height="150" class="bento-card" />
     
-    <!-- Gyro Orbits -->
-    <g class="spin-ring">
-      <circle cx="225" cy="110" r="60" fill="none" stroke="#00f0ff" stroke-width="1" stroke-dasharray="8 12" stroke-opacity="0.5"/>
-      <ellipse cx="225" cy="110" rx="75" ry="32" fill="none" stroke="#a855f7" stroke-width="1.2" stroke-opacity="0.4"/>
-      <circle cx="285" cy="110" r="4" fill="#ffffff" filter="url(#glow-light)"/>
-    </g>
-    <g class="spin-ring-reverse">
-      <circle cx="225" cy="110" r="44" fill="none" stroke="#ff007f" stroke-width="1.5" stroke-dasharray="20 10" stroke-opacity="0.5"/>
-      <circle cx="181" cy="110" r="4.5" fill="#ff007f" filter="url(#glow-heavy)"/>
-    </g>
-    
-    <!-- Title Text -->
-    <text x="25" y="85" font-size="22" font-weight="900" fill="#ffffff" class="font-sans">AI &amp; Automation</text>
-    <text x="25" y="112" font-size="12" fill="#00f0ff" class="font-mono" font-weight="700">AUTOMATION: ACTIVE</text>
-    
-    <g transform="translate(25, 142)" font-size="13" fill="#9ca3af" class="font-sans">
-      <text x="0" y="10">• Autonomous AI agents &amp; LLM systems</text>
-      <text x="0" y="30">• DevOps pipelines &amp; workflow automation</text>
-    </g>
-  </g>
-
-  <!-- ================= CARD 3: TECH MARQUEE (BOTTOM-LEFT: 440x185) ================= -->
-  <g class="card-group" transform="translate(15, 250)">
-    <rect width="440" height="185" class="bento-card" />
-    
-    <text x="25" y="38" font-size="15" font-weight="900" fill="#ffffff" class="font-sans">Core Technologies</text>
+    <text x="25" y="38" font-size="15" font-weight="900" fill="#ffffff" class="font-sans slanted-text">Core Technologies &amp; Tools</text>
     
     <!-- Horizontal Slider Clipping Mask Area -->
-    <svg x="20" y="55" width="400" height="100">
+    <svg x="20" y="55" width="780" height="80">
       <defs>
         <clipPath id="slider-clip">
-          <rect width="400" height="100" />
+          <rect width="780" height="80" />
         </clipPath>
       </defs>
       
@@ -248,102 +156,66 @@
           <!-- Slide Block 1 -->
           <g transform="translate(0, 15)">
             <!-- Next.js -->
-            <rect x="0" y="5" width="90" height="35" rx="10" fill="#000000" stroke="#00f0ff" stroke-width="1" />
-            <text x="45" y="27" font-size="12" font-weight="700" fill="#00f0ff" class="font-sans" text-anchor="middle">Next.js</text>
+            <rect x="0" y="5" width="100" height="35" rx="10" fill="#000000" stroke="#00f0ff" stroke-width="1" />
+            <text x="50" y="27" font-size="12" font-weight="700" fill="#00f0ff" class="font-sans slanted-text" text-anchor="middle">Next.js</text>
             
             <!-- React -->
-            <rect x="100" y="5" width="80" height="35" rx="10" fill="#000000" stroke="#a855f7" stroke-width="1" />
-            <text x="140" y="27" font-size="12" font-weight="700" fill="#a855f7" class="font-sans" text-anchor="middle">React</text>
+            <rect x="115" y="5" width="90" height="35" rx="10" fill="#000000" stroke="#a855f7" stroke-width="1" />
+            <text x="160" y="27" font-size="12" font-weight="700" fill="#a855f7" class="font-sans slanted-text" text-anchor="middle">React</text>
             
             <!-- TypeScript -->
-            <rect x="190" y="5" width="100" height="35" rx="10" fill="#000000" stroke="#ff007f" stroke-width="1" />
-            <text x="240" y="27" font-size="12" font-weight="700" fill="#ff007f" class="font-sans" text-anchor="middle">TypeScript</text>
+            <rect x="220" y="5" width="110" height="35" rx="10" fill="#000000" stroke="#ff007f" stroke-width="1" />
+            <text x="275" y="27" font-size="12" font-weight="700" fill="#ff007f" class="font-sans slanted-text" text-anchor="middle">TypeScript</text>
 
             <!-- Flutter -->
-            <rect x="300" y="5" width="90" height="35" rx="10" fill="#000000" stroke="#ffffff" stroke-width="1" opacity="0.8" />
-            <text x="345" y="27" font-size="12" font-weight="700" fill="#ffffff" class="font-sans" text-anchor="middle">Flutter</text>
-          </g>
-
-          <g transform="translate(0, 55)">
-            <!-- Node.js -->
-            <rect x="10" y="0" width="80" height="35" rx="10" fill="#000000" stroke="#ffffff" stroke-width="1" opacity="0.8" />
-            <text x="50" y="22" font-size="12" font-weight="700" fill="#ffffff" class="font-sans" text-anchor="middle">Node.js</text>
+            <rect x="345" y="5" width="100" height="35" rx="10" fill="#000000" stroke="#ffffff" stroke-width="1" opacity="0.8" />
+            <text x="395" y="27" font-size="12" font-weight="700" fill="#ffffff" class="font-sans slanted-text" text-anchor="middle">Flutter</text>
             
-            <!-- Electron -->
-            <rect x="100" y="0" width="90" height="35" rx="10" fill="#000000" stroke="#00f0ff" stroke-width="1" />
-            <text x="145" y="22" font-size="12" font-weight="700" fill="#00f0ff" class="font-sans" text-anchor="middle">Electron</text>
+            <!-- Node.js -->
+            <rect x="460" y="5" width="100" height="35" rx="10" fill="#000000" stroke="#00f0ff" stroke-width="1" />
+            <text x="510" y="27" font-size="12" font-weight="700" fill="#00f0ff" class="font-sans slanted-text" text-anchor="middle">Node.js</text>
             
             <!-- Firebase -->
-            <rect x="200" y="0" width="90" height="35" rx="10" fill="#000000" stroke="#a855f7" stroke-width="1" />
-            <text x="245" y="22" font-size="12" font-weight="700" fill="#a855f7" class="font-sans" text-anchor="middle">Firebase</text>
+            <rect x="575" y="5" width="100" height="35" rx="10" fill="#000000" stroke="#a855f7" stroke-width="1" />
+            <text x="625" y="27" font-size="12" font-weight="700" fill="#a855f7" class="font-sans slanted-text" text-anchor="middle">Firebase</text>
 
             <!-- MongoDB -->
-            <rect x="300" y="0" width="90" height="35" rx="10" fill="#000000" stroke="#ff007f" stroke-width="1" />
-            <text x="345" y="22" font-size="12" font-weight="700" fill="#ff007f" class="font-sans" text-anchor="middle">MongoDB</text>
+            <rect x="690" y="5" width="100" height="35" rx="10" fill="#000000" stroke="#ff007f" stroke-width="1" />
+            <text x="740" y="27" font-size="12" font-weight="700" fill="#ff007f" class="font-sans slanted-text" text-anchor="middle">MongoDB</text>
           </g>
           
           <!-- Slide Block 2 (Duplicate for continuous loop) -->
-          <g transform="translate(440, 15)">
+          <g transform="translate(800, 15)">
             <!-- Next.js -->
-            <rect x="0" y="5" width="90" height="35" rx="10" fill="#000000" stroke="#00f0ff" stroke-width="1" />
-            <text x="45" y="27" font-size="12" font-weight="700" fill="#00f0ff" class="font-sans" text-anchor="middle">Next.js</text>
+            <rect x="0" y="5" width="100" height="35" rx="10" fill="#000000" stroke="#00f0ff" stroke-width="1" />
+            <text x="50" y="27" font-size="12" font-weight="700" fill="#00f0ff" class="font-sans slanted-text" text-anchor="middle">Next.js</text>
             
             <!-- React -->
-            <rect x="100" y="5" width="80" height="35" rx="10" fill="#000000" stroke="#a855f7" stroke-width="1" />
-            <text x="140" y="27" font-size="12" font-weight="700" fill="#a855f7" class="font-sans" text-anchor="middle">React</text>
+            <rect x="115" y="5" width="90" height="35" rx="10" fill="#000000" stroke="#a855f7" stroke-width="1" />
+            <text x="160" y="27" font-size="12" font-weight="700" fill="#a855f7" class="font-sans slanted-text" text-anchor="middle">React</text>
             
             <!-- TypeScript -->
-            <rect x="190" y="5" width="100" height="35" rx="10" fill="#000000" stroke="#ff007f" stroke-width="1" />
-            <text x="240" y="27" font-size="12" font-weight="700" fill="#ff007f" class="font-sans" text-anchor="middle">TypeScript</text>
+            <rect x="220" y="5" width="110" height="35" rx="10" fill="#000000" stroke="#ff007f" stroke-width="1" />
+            <text x="275" y="27" font-size="12" font-weight="700" fill="#ff007f" class="font-sans slanted-text" text-anchor="middle">TypeScript</text>
 
             <!-- Flutter -->
-            <rect x="300" y="5" width="90" height="35" rx="10" fill="#000000" stroke="#ffffff" stroke-width="1" opacity="0.8" />
-            <text x="345" y="27" font-size="12" font-weight="700" fill="#ffffff" class="font-sans" text-anchor="middle">Flutter</text>
-          </g>
-
-          <g transform="translate(440, 55)">
-            <!-- Node.js -->
-            <rect x="10" y="0" width="80" height="35" rx="10" fill="#000000" stroke="#ffffff" stroke-width="1" opacity="0.8" />
-            <text x="50" y="22" font-size="12" font-weight="700" fill="#ffffff" class="font-sans" text-anchor="middle">Node.js</text>
+            <rect x="345" y="5" width="100" height="35" rx="10" fill="#000000" stroke="#ffffff" stroke-width="1" opacity="0.8" />
+            <text x="395" y="27" font-size="12" font-weight="700" fill="#ffffff" class="font-sans slanted-text" text-anchor="middle">Flutter</text>
             
-            <!-- Electron -->
-            <rect x="100" y="0" width="90" height="35" rx="10" fill="#000000" stroke="#00f0ff" stroke-width="1" />
-            <text x="145" y="22" font-size="12" font-weight="700" fill="#00f0ff" class="font-sans" text-anchor="middle">Electron</text>
+            <!-- Node.js -->
+            <rect x="460" y="5" width="100" height="35" rx="10" fill="#000000" stroke="#00f0ff" stroke-width="1" />
+            <text x="510" y="27" font-size="12" font-weight="700" fill="#00f0ff" class="font-sans slanted-text" text-anchor="middle">Node.js</text>
             
             <!-- Firebase -->
-            <rect x="200" y="0" width="90" height="35" rx="10" fill="#000000" stroke="#a855f7" stroke-width="1" />
-            <text x="245" y="22" font-size="12" font-weight="700" fill="#a855f7" class="font-sans" text-anchor="middle">Firebase</text>
+            <rect x="575" y="5" width="100" height="35" rx="10" fill="#000000" stroke="#a855f7" stroke-width="1" />
+            <text x="625" y="27" font-size="12" font-weight="700" fill="#a855f7" class="font-sans slanted-text" text-anchor="middle">Firebase</text>
 
             <!-- MongoDB -->
-            <rect x="300" y="0" width="90" height="35" rx="10" fill="#000000" stroke="#ff007f" stroke-width="1" />
-            <text x="345" y="22" font-size="12" font-weight="700" fill="#ff007f" class="font-sans" text-anchor="middle">MongoDB</text>
+            <rect x="690" y="5" width="100" height="35" rx="10" fill="#000000" stroke="#ff007f" stroke-width="1" />
+            <text x="740" y="27" font-size="12" font-weight="700" fill="#ff007f" class="font-sans slanted-text" text-anchor="middle">MongoDB</text>
           </g>
         </g>
       </g>
     </svg>
-  </g>
-
-  <!-- ================= CARD 4: HUD TELEMETRY OK (BOTTOM-RIGHT: 360x185) ================= -->
-  <g class="card-group" transform="translate(475, 250)">
-    <rect width="360" height="185" class="bento-card" stroke="url(#border-holo)" />
-    
-    <text x="25" y="38" font-size="15" font-weight="900" fill="#ffffff" class="font-sans">System Activity Monitor</text>
-    
-    <!-- Heart rate / CPU load curve -->
-    <svg x="20" y="55" width="320" height="85">
-      <!-- Background grid lines -->
-      <line x1="0" y1="40" x2="320" y2="40" stroke="#111827" stroke-width="1" />
-      <line x1="80" y1="0" x2="80" y2="85" stroke="#111827" stroke-width="1" />
-      <line x1="160" y1="0" x2="160" y2="85" stroke="#111827" stroke-width="1" />
-      <line x1="240" y1="0" x2="240" y2="85" stroke="#111827" stroke-width="1" />
-      
-      <!-- Wave Line (SVG path animating dashoffset) -->
-      <path d="M 0 45 L 60 45 L 80 15 L 90 70 L 100 45 L 150 45 L 160 30 L 175 60 L 185 45 L 240 45 L 255 10 L 265 75 L 275 45 L 320 45" 
-            fill="none" class="live-wave" />
-    </svg>
-    
-    <!-- Heartbeat Dot indicator -->
-    <circle cx="317" cy="115" r="4.5" fill="#00f0ff" class="heart-dot" filter="url(#glow-light)" />
-    <text x="307" y="119" font-size="11" font-weight="900" fill="#00f0ff" class="font-sans" text-anchor="end">CORE_OK: OPTIMAL</text>
   </g>
 </svg>

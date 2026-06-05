@@ -90,17 +90,6 @@ I am a passionate **Software Engineer** and **Full-Stack Developer** dedicated t
   <img src="divider.svg" width="100%" />
 </p>
 
-## 📈 Automated Contribution Flow
-
-<p align="center">
-  <!-- Contribution grid rendered into an active snake chase -->
-  <img src="https://raw.githubusercontent.com/Chenul-Thenuwara/Chenul-Thenuwara/output/github-contribution-grid-snake-dark.svg" alt="Automated Git Contribution History" width="100%" />
-</p>
-
-<p align="center">
-  <img src="divider.svg" width="100%" />
-</p>
-
 ## 🤝 Connect with Me
 
 <div align="center">

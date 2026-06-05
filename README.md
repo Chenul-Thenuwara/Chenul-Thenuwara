@@ -90,6 +90,17 @@ I am a passionate **Software Engineer** and **Full-Stack Developer** dedicated t
   <img src="divider.svg" width="100%" />
 </p>
 
+## 🕹️ Cyber Space Shooter
+
+<p align="center">
+  <!-- Interactive contribution graph rendered as a retro space invader game -->
+  <img src="game.gif" alt="GitHub Contribution Space Shooter Game" width="100%" />
+</p>
+
+<p align="center">
+  <img src="divider.svg" width="100%" />
+</p>
+
 ## 🤝 Connect with Me
 
 <div align="center">

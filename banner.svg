@@ -215,14 +215,16 @@
       <g transform="translate(2, 95)" class="font-mono" font-size="13" fill="#9ca3af">
         <text x="0" y="10" fill="#a855f7" font-weight="700">const<tspan fill="#ffffff"> developer</tspan> = {</text>
         
-        <text x="20" y="30">role: <tspan fill="#00f0ff">"Software Engineer"</tspan>,</text>
-        <!-- Sequenced Typing Text Overlay for Role -->
-        <text x="20" y="30" fill="#00f0ff" opacity="0">
-          <animate attributeName="opacity" values="1;0;0;1" keyTimes="0;0.3;0.7;1" dur="9s" repeatCount="indefinite" />
+        <text x="20" y="30" fill="#00f0ff" opacity="1">
+          <animate attributeName="opacity" values="1;1;0;0;0;0;1" keyTimes="0;0.30;0.33;0.63;0.66;0.97;1" dur="6s" repeatCount="indefinite" />
+          role: "Software Engineer",
+        </text>
+        <text x="20" y="30" fill="#a855f7" opacity="0">
+          <animate attributeName="opacity" values="0;0;1;1;0;0;0" keyTimes="0;0.30;0.33;0.63;0.66;0.97;1" dur="6s" repeatCount="indefinite" />
           role: "Full-Stack Developer",
         </text>
         <text x="20" y="30" fill="#ff007f" opacity="0">
-          <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.35;0.65;1" dur="9s" repeatCount="indefinite" />
+          <animate attributeName="opacity" values="0;0;0;0;1;1;0" keyTimes="0;0.30;0.33;0.63;0.66;0.97;1" dur="6s" repeatCount="indefinite" />
           role: "DevOps &amp; Automation",
         </text>
         

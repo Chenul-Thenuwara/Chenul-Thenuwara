@@ -125,12 +125,12 @@
     <text x="25" y="120" font-size="14" fill="#e5e7eb" font-weight="700" class="font-sans">NSBM Green University / Plymouth University</text>
     
     <!-- Bio info columns (2-column layout to fill width nicely) -->
-    <g transform="translate(25, 140)" font-size="13" fill="#9ca3af" class="font-sans" font-weight="600">
-      <text x="0" y="10">• Final-year undergraduate — graduating November 2026.</text>
-      <text x="0" y="28">• IT Intern at Anunine Holdings Private Limited.</text>
+    <g transform="translate(25, 138)" font-size="12.5" fill="#9ca3af" class="font-sans" font-weight="600">
+      <text x="0" y="10">• Final-year Undergraduate (Graduating Nov 2026)</text>
+      <text x="0" y="28">• IT Intern at Anunine Holdings</text>
       
-      <text x="430" y="10">• Focus: Full-Stack Web Development &amp; Software Design.</text>
-      <text x="430" y="28">• Passions: Generative AI, DevOps, &amp; Workflow Automation.</text>
+      <text x="410" y="10">• Focus: Full-Stack Dev &amp; Software Design</text>
+      <text x="410" y="28">• Passions: Gen AI, DevOps &amp; Automation</text>
     </g>
 
     <!-- Floating bubbles to look interactive -->

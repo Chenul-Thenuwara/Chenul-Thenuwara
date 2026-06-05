@@ -56,7 +56,7 @@
   </defs>
 
   <style>
-    /* Styling & Custom Fonts */
+    /* Styling and Custom Fonts */
     @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&amp;family=Fira+Code:wght@500;700&amp;display=swap');
     
     .font-sans {
@@ -177,7 +177,7 @@
     <line x1="0" y1="350" x2="850" y2="350" />
   </g>
 
-  <!-- ================= CARD 1: ACADEMICS & ROLES (TOP-LEFT: 440x220) ================= -->
+  <!-- ================= CARD 1: ACADEMICS AND ROLES (TOP-LEFT: 440x220) ================= -->
   <g class="card-group" transform="translate(15, 15)">
     <rect width="440" height="220" class="bento-card" />
     
@@ -203,7 +203,7 @@
     <circle cx="410" cy="65" r="6.5" fill="#ff007f" class="bubble-2 hover-glow" />
   </g>
 
-  <!-- ================= CARD 2: AUTOMATION & SMART HOME (TOP-RIGHT: 360x220) ================= -->
+  <!-- ================= CARD 2: AUTOMATION AND SMART HOME (TOP-RIGHT: 360x220) ================= -->
   <g class="card-group" transform="translate(475, 15)">
     <rect width="360" height="220" class="bento-card" />
     

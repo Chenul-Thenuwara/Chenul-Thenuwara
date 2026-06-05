@@ -28,7 +28,7 @@ I am a passionate **Software Engineer** and **Full-Stack Developer** dedicated t
 - 🎓 **Education:** Final-year BSc (Honours) Software Engineering undergraduate at **NSBM Green University** (in association with **Plymouth University**) — graduating November 2026.
 - 💼 **Current Role:** IT Intern at **Anunine Holdings Private Limited**.
 - 🛠️ **Core Focus:** Building seamless user interfaces, developing optimized backend structures, and exploring self-hosted infrastructure.
-- 🧠 **Tech Passions:** Beyond software, I have a deep interest in smart home architectures (Tuya/Zigbee environments), audio engineering systems, and automation.
+- 🧠 **Tech Passions:** Beyond core software engineering, I am passionate about exploring emerging technologies, generative AI integration, DevOps pipelines, and workflow automation.
 
 <p align="center">
   <img src="divider.svg" width="100%" />

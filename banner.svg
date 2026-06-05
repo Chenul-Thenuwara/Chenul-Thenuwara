@@ -200,19 +200,19 @@
     </g>
 
     <!-- LEFT SIDE: Glassmorphic Personal Identity -->
-    <g transform="translate(45, 65)" class="font-sans">
+    <g transform="translate(45, 60)" class="font-sans">
       <!-- Handwritten Signature Block (Martin Heinz style) -->
-      <g transform="translate(0, 20) rotate(-5)">
-        <text x="0" y="0" font-size="44" fill="#00f0ff" class="font-handwritten-brush" filter="url(#subtle-glow)">
+      <g transform="translate(0, 15) rotate(-5)">
+        <text x="0" y="0" font-size="36" fill="#00f0ff" class="font-handwritten-brush" filter="url(#subtle-glow)">
           Chenul Thenuwara
         </text>
-        <text x="10" y="28" font-size="24" fill="#9ca3af" class="font-handwritten">
+        <text x="8" y="24" font-size="20" fill="#9ca3af" class="font-handwritten">
           Software Engineer
         </text>
       </g>
 
       <!-- Live Code Block display -->
-      <g transform="translate(2, 100)" class="font-mono" font-size="13" fill="#9ca3af">
+      <g transform="translate(2, 95)" class="font-mono" font-size="13" fill="#9ca3af">
         <text x="0" y="10" fill="#a855f7" font-weight="700">const<tspan fill="#ffffff"> developer</tspan> = {</text>
         
         <text x="20" y="30">role: <tspan fill="#00f0ff">"Software Engineer"</tspan>,</text>
@@ -223,12 +223,12 @@
         </text>
         <text x="20" y="30" fill="#ff007f" opacity="0">
           <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.35;0.65;1" dur="9s" repeatCount="indefinite" />
-          role: "Creative Tech Maker",
+          role: "DevOps &amp; Automation",
         </text>
         
-        <text x="20" y="50">education: <tspan fill="#00f0ff">"BSc Hons SE (Plymouth)"</tspan>,</text>
-        <text x="20" y="70">internship: <tspan fill="#00f0ff">"Anunine Holdings"</tspan>,</text>
-        <text x="20" y="90">focus: <tspan fill="#00f0ff">["Smart_Homes", "Audio_Systems"]</tspan></text>
+        <text x="20" y="50">focus: <tspan fill="#00f0ff">["Full_Stack", "Gen_AI", "DevOps"]</tspan>,</text>
+        <text x="20" y="70">passions: <tspan fill="#00f0ff">["Automation", "New_Tech", "Coding"]</tspan>,</text>
+        <text x="20" y="90">education: <tspan fill="#00f0ff">"BSc Hons SE (Plymouth)"</tspan></text>
         
         <text x="0" y="110" fill="#a855f7" font-weight="700">};</text>
       </g>

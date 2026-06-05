@@ -203,7 +203,7 @@
     <circle cx="410" cy="65" r="6.5" fill="#ff007f" class="bubble-2 hover-glow" />
   </g>
 
-  <!-- ================= CARD 2: AUTOMATION AND SMART HOME (TOP-RIGHT: 360x220) ================= -->
+  <!-- ================= CARD 2: AUTOMATION AND GEN AI (TOP-RIGHT: 360x220) ================= -->
   <g class="card-group" transform="translate(475, 15)">
     <rect width="360" height="220" class="bento-card" />
     
@@ -219,12 +219,12 @@
     </g>
     
     <!-- Title Text -->
-    <text x="25" y="85" font-size="22" font-weight="900" fill="#ffffff" class="font-sans">Smart Home &amp; Audio</text>
-    <text x="25" y="112" font-size="12" fill="#00f0ff" class="font-mono" font-weight="700">INTELLIGENT_DEV: ON</text>
+    <text x="25" y="85" font-size="22" font-weight="900" fill="#ffffff" class="font-sans">AI &amp; Automation</text>
+    <text x="25" y="112" font-size="12" fill="#00f0ff" class="font-mono" font-weight="700">AUTOMATION: ACTIVE</text>
     
     <g transform="translate(25, 142)" font-size="13" fill="#9ca3af" class="font-sans">
-      <text x="0" y="10">• Smart home environments (Tuya/Zigbee)</text>
-      <text x="0" y="30">• High-fidelity audio engineering setups</text>
+      <text x="0" y="10">• Autonomous AI agents &amp; LLM systems</text>
+      <text x="0" y="30">• DevOps pipelines &amp; workflow automation</text>
     </g>
   </g>
 

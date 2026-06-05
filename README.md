@@ -66,9 +66,6 @@ I am a passionate **Software Engineer** and **Full-Stack Developer** dedicated t
 <p align="center">
   <img src="divider.svg" width="100%" />
 </p>
-
-## 📊 GitHub Statistics
-
 <p align="center">
   <a href="https://github.com/Chenul-Thenuwara">
     <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Chenul-Thenuwara&show_icons=true&bg_color=04060a&title_color=00f0ff&icon_color=a855f7&text_color=e5e7eb&border_color=1f2937&hide_border=false" alt="Chenul's GitHub Stats" height="195px" />
@@ -87,9 +84,6 @@ I am a passionate **Software Engineer** and **Full-Stack Developer** dedicated t
 <p align="center">
   <img src="divider.svg" width="100%" />
 </p>
-
-## 🕹️ Cyber Space Shooter
-
 <p align="center">
   <!-- Interactive contribution graph rendered as a retro space invader game -->
   <img src="game.gif" alt="GitHub Contribution Space Shooter Game" width="100%" />

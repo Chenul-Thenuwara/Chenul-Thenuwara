@@ -78,6 +78,7 @@
     }
     .glowing-orb-1 {
       animation: orb-move 10s ease-in-out infinite;
+      transform-origin: 0px 0px;
     }
     
     /* Blinking typing cursor */
@@ -101,15 +102,15 @@
     }
     .gyro-ring-1 {
       animation: rotate-clockwise 25s linear infinite;
-      transform-origin: 675px 165px;
+      transform-origin: 0px 0px;
     }
     .gyro-ring-2 {
       animation: rotate-counter-clockwise 18s linear infinite;
-      transform-origin: 675px 165px;
+      transform-origin: 0px 0px;
     }
     .gyro-ring-3 {
       animation: rotate-clockwise 12s linear infinite;
-      transform-origin: 675px 165px;
+      transform-origin: 0px 0px;
     }
 
     /* Core pulsing wave scale */
@@ -119,7 +120,7 @@
     }
     .core-sphere {
       animation: core-pulse 4s ease-in-out infinite;
-      transform-origin: 675px 165px;
+      transform-origin: 0px 0px;
     }
 
     /* Text gradient wave scroll */
@@ -168,8 +169,12 @@
 
     <!-- Shifting Aurora Orbs in the background -->
     <g clip-path="url(#card-clip)">
-      <circle cx="650" cy="120" r="130" fill="#a855f7" opacity="0.15" class="glowing-orb-1" filter="url(#neon-glow)" />
-      <circle cx="200" cy="220" r="100" fill="#00f0ff" opacity="0.08" class="glowing-orb-1" filter="url(#neon-glow)" style="animation-delay: -3s;" />
+      <g transform="translate(650, 120)">
+        <circle cx="0" cy="0" r="130" fill="#a855f7" opacity="0.15" class="glowing-orb-1" filter="url(#neon-glow)" />
+      </g>
+      <g transform="translate(200, 220)">
+        <circle cx="0" cy="0" r="100" fill="#00f0ff" opacity="0.08" class="glowing-orb-1" filter="url(#neon-glow)" style="animation-delay: -3s;" />
+      </g>
     </g>
     
     <clipPath id="card-clip">

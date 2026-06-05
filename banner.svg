@@ -1,45 +1,40 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 330" width="100%" height="100%">
   <defs>
-    <!-- Background Gradient -->
+    <!-- Background Gradients -->
     <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0b0e14" />
-      <stop offset="60%" stop-color="#06070a" />
-      <stop offset="100%" stop-color="#020305" />
+      <stop offset="0%" stop-color="#04060a" />
+      <stop offset="50%" stop-color="#020306" />
+      <stop offset="100%" stop-color="#010103" />
     </linearGradient>
 
-    <!-- Neon Yellow/Green Gradient (Lando Norris style) -->
-    <linearGradient id="neon-yellow-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#dfff00" />
-      <stop offset="50%" stop-color="#e5f900" />
-      <stop offset="100%" stop-color="#39ff14" />
-    </linearGradient>
-
-    <!-- Telemetry/Speed Gradient -->
-    <linearGradient id="telemetry-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <!-- Holographic Brand Gradients (Cyber-Minimalist) -->
+    <linearGradient id="holo-grad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#00f0ff" />
-      <stop offset="50%" stop-color="#7000ff" />
+      <stop offset="50%" stop-color="#a855f7" />
       <stop offset="100%" stop-color="#ff007f" />
     </linearGradient>
 
-    <!-- Carbon Fiber Pattern -->
-    <pattern id="carbon-pattern" width="6" height="6" patternUnits="userSpaceOnUse">
-      <rect width="6" height="6" fill="#0c0f16" />
-      <polygon points="0,0 3,0 0,3" fill="#141923" />
-      <polygon points="3,3 6,3 3,6" fill="#141923" />
-      <polygon points="3,3 6,3 6,0" fill="#1c2331" opacity="0.4" />
-      <polygon points="0,3 3,3 0,6" fill="#1c2331" opacity="0.4" />
+    <linearGradient id="border-glow-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f0ff" />
+      <stop offset="50%" stop-color="#a855f7" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#ff007f" />
+    </linearGradient>
+
+    <!-- Fine Tech Dot Grid -->
+    <pattern id="dot-grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="12" r="0.8" fill="#ffffff" fill-opacity="0.04" />
     </pattern>
 
-    <!-- Neon Glow Filter -->
-    <filter id="neon-glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="6" result="blur" />
+    <!-- Neon Glow Filters -->
+    <filter id="neon-glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
       <feMerge>
         <feMergeNode in="blur" />
         <feMergeNode in="SourceGraphic" />
       </feMerge>
     </filter>
 
-    <filter id="light-glow" x="-10%" y="-10%" width="120%" height="120%">
+    <filter id="subtle-glow" x="-20%" y="-20%" width="140%" height="140%">
       <feGaussianBlur stdDeviation="3" result="blur" />
       <feMerge>
         <feMergeNode in="blur" />
@@ -49,7 +44,7 @@
   </defs>
 
   <style>
-    /* Fonts */
+    /* Custom Typography */
     @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&amp;family=Fira+Code:wght@500;700&amp;display=swap');
     
     .font-sans {
@@ -59,209 +54,219 @@
       font-family: 'Fira Code', monospace;
     }
 
-    /* Slanted motorsport text */
-    .slanted-text {
-      font-style: italic;
-      text-transform: uppercase;
-    }
-
-    /* 3D tilt effect on the card */
-    .hud-card {
+    /* 3D Perspective Tilt on entire card */
+    .workbench-card {
       transform-style: preserve-3d;
       perspective: 1000px;
       transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
       cursor: pointer;
     }
-    svg:hover .hud-card {
-      transform: rotateX(3deg) rotateY(-3deg) translateZ(15px);
+    svg:hover .workbench-card {
+      transform: rotateX(2.5deg) rotateY(-2.5deg) translateZ(12px);
     }
 
-    /* F1 Shift Lights animation */
-    @keyframes led-green {
-      0%, 15% { opacity: 0.1; }
-      16%, 100% { opacity: 1; }
+    /* Shifting background holographic lights */
+    @keyframes orb-move {
+      0%, 100% { transform: translate(0px, 0px) scale(1); opacity: 0.2; }
+      50% { transform: translate(60px, -30px) scale(1.15); opacity: 0.35; }
     }
-    @keyframes led-red {
-      0%, 45% { opacity: 0.1; }
-      46%, 100% { opacity: 1; }
-    }
-    @keyframes led-blue {
-      0%, 75% { opacity: 0.1; }
-      76%, 90% { opacity: 1; }
-      91%, 100% { opacity: 0.2; } /* Flash drop */
-    }
-    @keyframes led-flash {
-      0%, 80% { opacity: 0.1; }
-      81%, 90% { opacity: 1; filter: drop-shadow(0 0 8px #7000ff); }
-      91%, 100% { opacity: 0.1; }
-    }
-
-    .led-g { animation: led-green 2.5s infinite linear; }
-    .led-r { animation: led-red 2.5s infinite linear; }
-    .led-b { animation: led-blue 2.5s infinite linear; }
-    .led-fl { animation: led-flash 2.5s infinite linear; }
-
-    /* Animated HUD Speed indicator */
-    @keyframes speed-counter {
-      0% { content: "0.0"; }
-      10% { content: "45.2"; }
-      30% { content: "128.6"; }
-      60% { content: "198.4"; }
-      80%, 100% { content: "202.6"; }
+    .glowing-orb-1 {
+      animation: orb-move 10s ease-in-out infinite;
     }
     
-    /* Neon signal line pulsing */
-    @keyframes telemetry-flow {
-      0% { stroke-dashoffset: 400; }
-      100% { stroke-dashoffset: 0; }
+    /* Blinking typing cursor */
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
     }
-    .telemetry-line {
-      stroke: url(#telemetry-grad);
-      stroke-width: 2.2;
-      stroke-linecap: round;
-      stroke-dasharray: 80 320;
-      animation: telemetry-flow 3s linear infinite;
+    .cursor {
+      animation: blink 1s infinite;
+      fill: #00f0ff;
     }
 
-    /* Speed tracks scrolling in background */
-    @keyframes speed-stripes {
-      0% { stroke-dashoffset: 60; }
-      100% { stroke-dashoffset: 0; }
+    /* Gyroscope/Vortex rotations in 3D */
+    @keyframes rotate-clockwise {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
     }
-    .track-stripes {
-      stroke: #dfff00;
-      stroke-opacity: 0.2;
-      stroke-dasharray: 10 20;
-      animation: speed-stripes 1.5s linear infinite;
+    @keyframes rotate-counter-clockwise {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(-360deg); }
+    }
+    .gyro-ring-1 {
+      animation: rotate-clockwise 25s linear infinite;
+      transform-origin: 675px 165px;
+    }
+    .gyro-ring-2 {
+      animation: rotate-counter-clockwise 18s linear infinite;
+      transform-origin: 675px 165px;
+    }
+    .gyro-ring-3 {
+      animation: rotate-clockwise 12s linear infinite;
+      transform-origin: 675px 165px;
     }
 
-    /* RPM Gauge bar pulsing */
-    @keyframes gauge-pulse {
-      0%, 100% { stroke-dashoffset: 280; }
-      50% { stroke-dashoffset: 80; }
+    /* Core pulsing wave scale */
+    @keyframes core-pulse {
+      0%, 100% { transform: scale(1); opacity: 0.8; filter: drop-shadow(0 0 10px rgba(0, 240, 255, 0.4)); }
+      50% { transform: scale(1.08); opacity: 1; filter: drop-shadow(0 0 25px rgba(255, 0, 127, 0.6)); }
     }
-    .gauge-progress {
-      stroke: url(#neon-yellow-grad);
-      stroke-dasharray: 280;
-      animation: gauge-pulse 5s ease-in-out infinite;
+    .core-sphere {
+      animation: core-pulse 4s ease-in-out infinite;
+      transform-origin: 675px 165px;
+    }
+
+    /* Text gradient wave scroll */
+    @keyframes gradient-shift {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    /* Floating syntax keywords in background */
+    @keyframes float-tag {
+      0%, 100% { transform: translateY(0px) rotate(0deg); opacity: 0.15; }
+      50% { transform: translateY(-10px) rotate(3deg); opacity: 0.35; }
+    }
+    .float-syntax-1 { animation: float-tag 7s ease-in-out infinite; }
+    .float-syntax-2 { animation: float-tag 9s ease-in-out infinite; }
+    
+    /* Code typing animation */
+    @keyframes type-role {
+      0%, 90%, 100% { content: "Software Engineer"; }
+      25%, 55% { content: "Full-Stack Developer"; }
+      60%, 85% { content: "Creative Tech Maker"; }
+    }
+    
+    /* Border pulse */
+    @keyframes border-breathing {
+      0%, 100% { stroke-opacity: 0.4; }
+      50% { stroke-opacity: 0.9; stroke-width: 2px; }
+    }
+    .workbench-border {
+      fill: url(#bg-grad);
+      stroke: url(#border-glow-grad);
+      stroke-width: 1.5;
+      rx: 20px;
+      animation: border-breathing 4s ease-in-out infinite;
     }
   </style>
 
-  <!-- Main HUD Frame -->
-  <g class="hud-card">
-    <!-- Outer Slanted Tech Border -->
-    <rect x="15" y="15" width="820" height="300" rx="16" fill="url(#bg-grad)" stroke="#1f2937" stroke-width="2" />
+  <!-- Main Perspective Wrapper -->
+  <g class="workbench-card">
+    <!-- Outer Card Frame -->
+    <rect x="15" y="15" width="820" height="300" class="workbench-border" />
     
-    <!-- Carbon Fiber texture overlay -->
-    <rect x="17" y="17" width="816" height="296" rx="15" fill="url(#carbon-pattern)" opacity="0.6" />
+    <!-- Background Grid -->
+    <rect x="17" y="17" width="816" height="296" rx="19" fill="url(#dot-grid)" />
 
-    <!-- Corner speed track graphic -->
-    <path d="M 15 285 L 835 285" stroke-width="1.5" class="track-stripes" />
+    <!-- Shifting Aurora Orbs in the background -->
+    <g clip-path="url(#card-clip)">
+      <circle cx="650" cy="120" r="130" fill="#a855f7" opacity="0.15" class="glowing-orb-1" filter="url(#neon-glow)" />
+      <circle cx="200" cy="220" r="100" fill="#00f0ff" opacity="0.08" class="glowing-orb-1" filter="url(#neon-glow)" style="animation-delay: -3s;" />
+    </g>
     
-    <!-- Outer neon yellow framing elements -->
-    <path d="M 25,15 L 120,15 M 15,25 L 15,90" stroke="#dfff00" stroke-width="3.5" stroke-linecap="round" />
-    <path d="M 825,15 L 730,15 M 835,25 L 835,90" stroke="#dfff00" stroke-width="3.5" stroke-linecap="round" />
-    <path d="M 25,315 L 120,315 M 15,305 L 15,240" stroke="#dfff00" stroke-width="3.5" stroke-linecap="round" />
-    <path d="M 825,315 L 730,315 M 835,305 L 835,240" stroke="#dfff00" stroke-width="3.5" stroke-linecap="round" />
+    <clipPath id="card-clip">
+      <rect x="17" y="17" width="816" height="296" rx="19" />
+    </clipPath>
 
-    <!-- Top Status Bar -->
-    <g transform="translate(35, 36)">
-      <!-- System Telemetry badges -->
-      <rect x="0" y="0" width="80" height="20" rx="4" fill="#dfff00" fill-opacity="0.1" stroke="#dfff00" stroke-opacity="0.3" />
-      <text x="40" y="14" font-size="10" font-weight="900" fill="#dfff00" class="font-sans slanted-text" text-anchor="middle">LIVE HUD</text>
-      
-      <rect x="90" y="0" width="95" height="20" rx="4" fill="#00f0ff" fill-opacity="0.1" stroke="#00f0ff" stroke-opacity="0.3" />
-      <text x="137" y="14" font-size="10" font-weight="900" fill="#00f0ff" class="font-sans slanted-text" text-anchor="middle">SYS_ENG: ACTIVE</text>
+    <!-- Interactive Window Control Badges (Cyber Minimalist Style) -->
+    <g transform="translate(38, 38)" stroke="#ffffff" stroke-opacity="0.15" stroke-width="1">
+      <line x1="0" y1="0" x2="20" y2="0" />
+      <line x1="30" y1="0" x2="50" y2="0" />
+      <line x1="60" y1="0" x2="80" y2="0" />
+    </g>
+    
+    <!-- Status Indicator -->
+    <g transform="translate(740, 30)">
+      <circle cx="10" cy="10" r="4" fill="#00f0ff" filter="url(#subtle-glow)">
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite" />
+      </circle>
+      <text x="22" y="14" fill="#6b7280" font-size="10" font-weight="700" class="font-sans">ONLINE</text>
     </g>
 
-    <!-- Centered header telemetry coordinate -->
-    <text x="425" y="49" fill="#4b5563" font-size="11" font-weight="900" class="font-mono slanted-text" text-anchor="middle">
-      CHNL_T.SYS.TRK.2026 // LAP_01
-    </text>
+    <!-- Floating Code Symbols (Abstract Tech Vibes) -->
+    <g font-size="12" fill="#a855f7" class="font-mono" font-weight="700">
+      <text x="50" y="290" class="float-syntax-1">&lt;/&gt;</text>
+      <text x="320" y="55" class="float-syntax-2">{}</text>
+      <text x="490" y="275" class="float-syntax-1" style="animation-delay: -3s;">await</text>
+      <text x="210" y="45" class="float-syntax-2" style="animation-delay: -4s;">const</text>
+    </g>
 
-    <!-- LEFT SIDE: High-Performance Profile Telemetry -->
-    <g transform="translate(45, 85)" class="font-sans">
-      <!-- Slanted Name Headline (Lando Norris style typography) -->
-      <text x="0" y="20" font-size="36" font-weight="900" fill="#ffffff" class="slanted-text">
-        CHENUL <tspan fill="url(#neon-yellow-grad)">THENUWARA</tspan>
+    <!-- LEFT SIDE: Glassmorphic Personal Identity -->
+    <g transform="translate(45, 80)" class="font-sans">
+      <!-- Huge Premium Typography Name (Awwwards Style) -->
+      <text x="0" y="20" font-size="34" font-weight="900" fill="#ffffff" letter-spacing="-0.5">
+        Chenul <tspan fill="url(#holo-grad)">Thenuwara</tspan>
       </text>
 
-      <!-- Subtitle/Roles -->
-      <g transform="translate(2, 48)">
-        <text x="0" y="0" font-size="13" font-weight="900" fill="#dfff00" class="slanted-text">SECTOR 1: POSITION</text>
-        <text x="140" y="0" font-size="14" font-weight="900" fill="#ffffff" class="slanted-text">SOFTWARE ENGINEER</text>
-      </g>
-      <g transform="translate(2, 70)">
-        <text x="0" y="0" font-size="13" font-weight="900" fill="#00f0ff" class="slanted-text">SECTOR 2: CONTEXT</text>
-        <text x="140" y="0" font-size="14" font-weight="700" fill="#e5e7eb" class="slanted-text">IT INTERN @ ANUNINE HOLDINGS</text>
-      </g>
-      <g transform="translate(2, 92)">
-        <text x="0" y="0" font-size="13" font-weight="900" fill="#a855f7" class="slanted-text">SECTOR 3: ACADEMY</text>
-        <text x="140" y="0" font-size="14" font-weight="700" fill="#e5e7eb" class="slanted-text">NSBM GREEN UNIV / PLYMOUTH UNIV</text>
+      <!-- Live Code Block display -->
+      <g transform="translate(2, 50)" class="font-mono" font-size="14" fill="#9ca3af">
+        <text x="0" y="10" fill="#a855f7" font-weight="700">const<tspan fill="#ffffff"> developer</tspan> = {</text>
+        
+        <text x="20" y="32">role: <tspan fill="#00f0ff">"Software Engineer"</tspan>,</text>
+        <!-- Sequenced Typing Text Overlay for Role -->
+        <text x="20" y="32" fill="#00f0ff" opacity="0">
+          <animate attributeName="opacity" values="1;0;0;1" keyTimes="0;0.3;0.7;1" dur="9s" repeatCount="indefinite" />
+          role: "Full-Stack Developer",
+        </text>
+        <text x="20" y="32" fill="#ff007f" opacity="0">
+          <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.35;0.65;1" dur="9s" repeatCount="indefinite" />
+          role: "Creative Tech Maker",
+        </text>
+        
+        <text x="20" y="54">education: <tspan fill="#00f0ff">"BSc Hons SE (Plymouth)"</tspan>,</text>
+        <text x="20" y="76">internship: <tspan fill="#00f0ff">"Anunine Holdings"</tspan>,</text>
+        <text x="20" y="98">focus: <tspan fill="#00f0ff">["Smart_Homes", "Audio_Systems"]</tspan></text>
+        
+        <text x="0" y="120" fill="#a855f7" font-weight="700">};</text>
       </g>
 
-      <!-- Simulated terminal/activity log under profile -->
-      <g transform="translate(2, 135)" class="font-mono" font-size="12" fill="#9ca3af">
-        <text x="0" y="0" fill="#dfff00" font-weight="700">&gt;&gt; RUNNING SMART HOME TELEMETRY (ZIGBEE/TUYA)</text>
-        <text x="0" y="20" fill="#00f0ff" font-weight="700">&gt;&gt; HI-FI STUDIO MONITOR AUDIO SYSTEMS ACTIVE</text>
-        <text x="0" y="40" fill="#ffffff" font-weight="700">&gt;&gt; GRADUATION COUNTDOWN: TARGET NOV 2026</text>
+      <!-- Live status cursor block at bottom -->
+      <g transform="translate(2, 215)" class="font-mono" font-size="13" fill="#6b7280">
+        <text x="0" y="0">&gt; npm run innovate</text>
+        <rect x="150" y="-12" width="7" height="14" class="cursor" />
       </g>
     </g>
 
-    <!-- RIGHT SIDE: F1 Racing Cockpit steering HUD display -->
-    <g transform="translate(565, 80)">
-      <!-- Panel Divider -->
-      <line x1="-50" y1="-15" x2="-50" y2="215" stroke="#1f2937" stroke-width="1.5" stroke-dasharray="4 4" />
-
-      <!-- F1 Shift Lights Bar (green -> red -> blue -> purple) -->
-      <!-- Center is at x=75, y=10 -->
-      <g transform="translate(0, 5)">
-        <!-- Green LEDs -->
-        <circle cx="10" cy="0" r="5" fill="#39ff14" class="led-g" filter="url(#light-glow)" style="animation-delay: 0.1s;" />
-        <circle cx="25" cy="0" r="5" fill="#39ff14" class="led-g" filter="url(#light-glow)" style="animation-delay: 0.3s;" />
-        <circle cx="40" cy="0" r="5" fill="#39ff14" class="led-g" filter="url(#light-glow)" style="animation-delay: 0.5s;" />
-        
-        <!-- Red LEDs -->
-        <circle cx="55" cy="0" r="5" fill="#ff073a" class="led-r" filter="url(#light-glow)" style="animation-delay: 0.7s;" />
-        <circle cx="70" cy="0" r="5" fill="#ff073a" class="led-r" filter="url(#light-glow)" style="animation-delay: 0.9s;" />
-        <circle cx="85" cy="0" r="5" fill="#ff073a" class="led-r" filter="url(#light-glow)" style="animation-delay: 1.1s;" />
-        
-        <!-- Blue / Purple LEDs -->
-        <circle cx="100" cy="0" r="5" fill="#00f0ff" class="led-b" filter="url(#light-glow)" style="animation-delay: 1.3s;" />
-        <circle cx="115" cy="0" r="5" fill="#00f0ff" class="led-b" filter="url(#light-glow)" style="animation-delay: 1.5s;" />
-        <circle cx="130" cy="0" r="5" fill="#7000ff" class="led-fl" filter="url(#light-glow)" style="animation-delay: 1.7s;" />
-        <circle cx="145" cy="0" r="5" fill="#7000ff" class="led-fl" filter="url(#light-glow)" style="animation-delay: 1.9s;" />
+    <!-- RIGHT SIDE: Awwwards-style Glowing Holographic Orb/Gyroscope -->
+    <g transform="translate(675, 165)">
+      <!-- Outer Gyro Ring 1 (Electric Blue) -->
+      <g class="gyro-ring-1">
+        <ellipse cx="0" cy="0" rx="90" ry="85" fill="none" stroke="#00f0ff" stroke-width="0.8" stroke-dasharray="10 30" stroke-opacity="0.6" />
+        <circle cx="64" cy="60" r="3.5" fill="#00f0ff" filter="url(#subtle-glow)" />
       </g>
 
-      <!-- Tachometer/RPM Circular Dial -->
-      <g transform="translate(75, 110)">
-        <!-- Track Circle Outer -->
-        <circle cx="0" cy="0" r="65" fill="none" stroke="#1f2937" stroke-width="2.5" />
-        
-        <!-- RPM Tick Marks -->
-        <path d="M-55,-30 A 65 65 0 0 1 55 -30" fill="none" stroke="#dfff00" stroke-width="6" class="gauge-progress" stroke-linecap="round" />
-        
-        <!-- Telemetry Sine curve background -->
-        <path d="M -40 25 Q -20 -10 0 25 T 40 25" fill="none" class="telemetry-line" />
-        
-        <!-- Center Giant GEAR Indicator (Awwwards bold style) -->
-        <text x="0" y="10" font-size="44" font-weight="900" fill="#ffffff" class="font-sans slanted-text" text-anchor="middle" filter="url(#neon-glow)">8</text>
-        <text x="0" y="24" font-size="9" font-weight="900" fill="#4b5563" class="font-sans slanted-text" text-anchor="middle">GEAR</text>
-
-        <!-- Speed Telemetry digital counter (looks like it values change) -->
-        <g transform="translate(0, 48)">
-          <rect x="-35" y="-12" width="70" height="18" rx="3" fill="#070a0f" stroke="#1f2937" stroke-width="1" />
-          <!-- Displays Graduation Year 202.6 MPH! -->
-          <text x="0" y="1" font-size="11" font-weight="900" fill="#00f0ff" class="font-mono slanted-text" text-anchor="middle">202.6 MPH</text>
-        </g>
+      <!-- Gyro Ring 2 (Cyber Purple) -->
+      <g class="gyro-ring-2">
+        <ellipse cx="0" cy="0" rx="75" ry="40" fill="none" stroke="#a855f7" stroke-width="1.2" stroke-opacity="0.5" />
+        <circle cx="-53" cy="28" r="3" fill="#a855f7" filter="url(#subtle-glow)" />
       </g>
 
-      <!-- Floating telemetry coordinate blocks -->
-      <g transform="translate(0, 195)" font-size="9" font-weight="900" class="font-mono slanted-text" fill="#4b5563">
-        <text x="-35" y="0">DRS: ON</text>
-        <text x="45" y="0">ERS: 98%</text>
-        <text x="125" y="0">BIAS: 58.5</text>
+      <!-- Gyro Ring 3 (Hot Pink) -->
+      <g class="gyro-ring-3">
+        <ellipse cx="0" cy="0" rx="95" ry="30" fill="none" stroke="#ff007f" stroke-width="1" stroke-dasharray="35 15" stroke-opacity="0.4" />
+        <circle cx="82" cy="15" r="2.5" fill="#ff007f" filter="url(#subtle-glow)" />
       </g>
+
+      <!-- Center Glowing Core Sphere (Holographic Light Source) -->
+      <g class="core-sphere">
+        <circle cx="0" cy="0" r="28" fill="#04060a" stroke="url(#holo-grad)" stroke-width="3" filter="url(#neon-glow)" />
+        
+        <!-- Center Emblem CT -->
+        <text x="0" y="5" font-size="14" font-weight="900" fill="#ffffff" class="font-sans" text-anchor="middle" letter-spacing="0.5">CT</text>
+      </g>
+
+      <!-- Shimmering particles floating around core -->
+      <circle cx="-35" cy="-60" r="1.5" fill="#ffffff" opacity="0.3">
+        <animate attributeName="opacity" values="0.1;0.7;0.1" dur="3s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="45" cy="50" r="2" fill="#00f0ff" opacity="0.4">
+        <animate attributeName="opacity" values="0.8;0.2;0.8" dur="4s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="-60" cy="30" r="1.2" fill="#ff007f" opacity="0.5">
+        <animate attributeName="opacity" values="0.2;0.9;0.2" dur="2s" repeatCount="indefinite" />
+      </circle>
     </g>
   </g>
 </svg>

@@ -1,21 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 24" width="100%" height="24" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 20" width="100%" height="20" fill="none">
   <defs>
-    <!-- Vibrant Gradient matching Lando Norris F1 style -->
+    <!-- Glowing Holographic Gradient -->
     <linearGradient id="div-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00f0ff" />
-      <stop offset="35%" stop-color="#dfff00" />
-      <stop offset="70%" stop-color="#ff007f" />
-      <stop offset="100%" stop-color="#00f0ff" />
+      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.1" />
+      <stop offset="25%" stop-color="#00f0ff" />
+      <stop offset="50%" stop-color="#a855f7" />
+      <stop offset="75%" stop-color="#ff007f" />
+      <stop offset="100%" stop-color="#ff007f" stop-opacity="0.1" />
     </linearGradient>
 
-    <!-- Speed Lines Pattern -->
-    <pattern id="speed-stripes" width="20" height="24" patternUnits="userSpaceOnUse">
-      <line x1="0" y1="24" x2="10" y2="0" stroke="#dfff00" stroke-width="4" stroke-opacity="0.15" />
-      <line x1="10" y1="24" x2="20" y2="0" stroke="#00f0ff" stroke-width="4" stroke-opacity="0.08" />
-    </pattern>
-    
-    <filter id="neon-glow" x="-10%" y="-100%" width="120%" height="300%">
-      <feGaussianBlur stdDeviation="3" result="blur" />
+    <filter id="neon-glow" x="-10%" y="-150%" width="120%" height="400%">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
       <feMerge>
         <feMergeNode in="blur" />
         <feMergeNode in="SourceGraphic" />
@@ -23,39 +18,41 @@
     </filter>
   </defs>
   <style>
-    @keyframes speed-flow {
+    @keyframes pulse-flow {
       0% { stroke-dashoffset: 800; }
       100% { stroke-dashoffset: 0; }
     }
-    .laser-line {
+    .pulse-line {
       stroke: url(#div-grad);
-      stroke-width: 3.5;
+      stroke-width: 3;
       stroke-linecap: round;
-      stroke-dasharray: 140 660;
-      animation: speed-flow 3.5s linear infinite;
+      stroke-dasharray: 100 700;
+      animation: pulse-flow 4s linear infinite;
     }
-    .background-track {
-      stroke: #141923;
-      stroke-width: 2.5;
+    .track-line {
+      stroke: #121820;
+      stroke-width: 1.2;
+      stroke-opacity: 0.6;
       stroke-linecap: round;
     }
-    @keyframes stripes-scroll {
-      0% { transform: translateX(0); }
-      100% { transform: translateX(20px); }
+    @keyframes orb-pulse {
+      0%, 100% { opacity: 0.3; }
+      50% { opacity: 0.8; }
     }
-    .scrolling-stripes {
-      animation: stripes-scroll 1s linear infinite;
+    .accent-dots {
+      fill: #ffffff;
+      opacity: 0.5;
+      animation: orb-pulse 2s infinite ease-in-out;
     }
   </style>
-  
-  <!-- Scrolling Motorsport background speed stripes -->
-  <g class="scrolling-stripes">
-    <rect x="-20" y="0" width="840" height="24" fill="url(#speed-stripes)" />
-  </g>
 
-  <!-- Background tracking line -->
-  <line x1="15" y1="12" x2="785" y2="12" class="background-track" />
+  <!-- Track -->
+  <line x1="15" y1="10" x2="785" y2="10" class="track-line" />
   
-  <!-- Pulsing high-speed neon laser stripe -->
-  <line x1="15" y1="12" x2="785" y2="12" class="laser-line" filter="url(#neon-glow)" />
+  <!-- Flowing Laser Line -->
+  <line x1="15" y1="10" x2="785" y2="10" class="pulse-line" filter="url(#neon-glow)" />
+
+  <!-- Abstract End Points -->
+  <circle cx="15" cy="10" r="1.5" class="accent-dots" />
+  <circle cx="785" cy="10" r="1.5" class="accent-dots" style="animation-delay: 1s;" />
 </svg>

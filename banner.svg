@@ -45,13 +45,19 @@
 
   <style>
     /* Custom Typography */
-    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&amp;family=Fira+Code:wght@500;700&amp;display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&amp;family=Fira+Code:wght@500;700&amp;family=Caveat:wght@700&amp;family=Caveat+Brush&amp;display=swap');
     
     .font-sans {
       font-family: 'Outfit', -apple-system, sans-serif;
     }
     .font-mono {
       font-family: 'Fira Code', monospace;
+    }
+    .font-handwritten {
+      font-family: 'Caveat', cursive;
+    }
+    .font-handwritten-brush {
+      font-family: 'Caveat Brush', cursive;
     }
 
     /* 3D Perspective Tilt on entire card */
@@ -194,38 +200,43 @@
     </g>
 
     <!-- LEFT SIDE: Glassmorphic Personal Identity -->
-    <g transform="translate(45, 80)" class="font-sans">
-      <!-- Huge Premium Typography Name (Awwwards Style) -->
-      <text x="0" y="20" font-size="34" font-weight="900" fill="#ffffff" letter-spacing="-0.5">
-        Chenul <tspan fill="url(#holo-grad)">Thenuwara</tspan>
-      </text>
+    <g transform="translate(45, 65)" class="font-sans">
+      <!-- Handwritten Signature Block (Martin Heinz style) -->
+      <g transform="translate(0, 20) rotate(-5)">
+        <text x="0" y="0" font-size="44" fill="#00f0ff" class="font-handwritten-brush" filter="url(#subtle-glow)">
+          Chenul Thenuwara
+        </text>
+        <text x="10" y="28" font-size="24" fill="#9ca3af" class="font-handwritten">
+          Software Engineer
+        </text>
+      </g>
 
       <!-- Live Code Block display -->
-      <g transform="translate(2, 50)" class="font-mono" font-size="14" fill="#9ca3af">
+      <g transform="translate(2, 100)" class="font-mono" font-size="13" fill="#9ca3af">
         <text x="0" y="10" fill="#a855f7" font-weight="700">const<tspan fill="#ffffff"> developer</tspan> = {</text>
         
-        <text x="20" y="32">role: <tspan fill="#00f0ff">"Software Engineer"</tspan>,</text>
+        <text x="20" y="30">role: <tspan fill="#00f0ff">"Software Engineer"</tspan>,</text>
         <!-- Sequenced Typing Text Overlay for Role -->
-        <text x="20" y="32" fill="#00f0ff" opacity="0">
+        <text x="20" y="30" fill="#00f0ff" opacity="0">
           <animate attributeName="opacity" values="1;0;0;1" keyTimes="0;0.3;0.7;1" dur="9s" repeatCount="indefinite" />
           role: "Full-Stack Developer",
         </text>
-        <text x="20" y="32" fill="#ff007f" opacity="0">
+        <text x="20" y="30" fill="#ff007f" opacity="0">
           <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.35;0.65;1" dur="9s" repeatCount="indefinite" />
           role: "Creative Tech Maker",
         </text>
         
-        <text x="20" y="54">education: <tspan fill="#00f0ff">"BSc Hons SE (Plymouth)"</tspan>,</text>
-        <text x="20" y="76">internship: <tspan fill="#00f0ff">"Anunine Holdings"</tspan>,</text>
-        <text x="20" y="98">focus: <tspan fill="#00f0ff">["Smart_Homes", "Audio_Systems"]</tspan></text>
+        <text x="20" y="50">education: <tspan fill="#00f0ff">"BSc Hons SE (Plymouth)"</tspan>,</text>
+        <text x="20" y="70">internship: <tspan fill="#00f0ff">"Anunine Holdings"</tspan>,</text>
+        <text x="20" y="90">focus: <tspan fill="#00f0ff">["Smart_Homes", "Audio_Systems"]</tspan></text>
         
-        <text x="0" y="120" fill="#a855f7" font-weight="700">};</text>
+        <text x="0" y="110" fill="#a855f7" font-weight="700">};</text>
       </g>
 
       <!-- Live status cursor block at bottom -->
-      <g transform="translate(2, 215)" class="font-mono" font-size="13" fill="#6b7280">
+      <g transform="translate(2, 230)" class="font-mono" font-size="12" fill="#6b7280">
         <text x="0" y="0">&gt; npm run innovate</text>
-        <rect x="150" y="-12" width="7" height="14" class="cursor" />
+        <rect x="140" y="-11" width="7" height="13" class="cursor" />
       </g>
     </g>
 

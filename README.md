@@ -26,7 +26,7 @@ $ status --user chenul-thenuwara
 - Real-Time Engines: Built Socket.IO WebSockets seat locking engine to eliminate booking race conditions
 - High-Performance Media: Built HTTP 206 Partial Content video streaming controller with FFprobe metadata extraction
 - Spatial Rendering: Developed 2D-to-3D WebGL parametric geometry pipeline with async GLTF/GLB resolution
-- Academic Aggregate: First Class Honours (68.00% Aggregate; 79.60% Computing Project Grade A)
+- Academic Aggregate: First Class Honours (68.00% Aggregate; 79.60% Computing Project)
 ```
 
 <hr />
@@ -47,16 +47,16 @@ $ status --user chenul-thenuwara
 $ transcript --degree "BSc (Hons) Software Engineering" --university "Plymouth UK / NSBM"
 
 [STAGE 3 FINAL MARKS - FIRST CLASS HONOURS (AGGREGATE 68.00%)]
-- PUSL3190 Computing Project: 79.60% (Grade A) [Report: 80.00%, Viva: 79.00%]
-- PUSL3122 HCI, Computer Graphics & Visualisation: 76.02% (Grade A)
-- PUSL3123 AI and Machine Learning: 73.00% (Grade A)
-- PUSL3120 Full-Stack Development: 70.07% (Grade A)
-- PUSL3134 Software Project Management: 58.00% (Grade A)
+- PUSL3190 Computing Project: 79.60% [Report: 80.00%, Viva: 79.00%]
+- PUSL3122 HCI, Computer Graphics & Visualisation: 76.02%
+- PUSL3123 AI and Machine Learning: 73.00%
+- PUSL3120 Full-Stack Development: 70.07%
+- PUSL3134 Software Project Management: 58.00%
 
 [STAGE 2 HIGHLIGHTS]
-- PUSL2022 Introduction to IoT: 84.17% (Grade A)
-- PUSL2023 Mobile App Development: 70.68% (Grade A)
-- PUSL2024 Software Engineering 2: 67.20% (Grade A)
+- PUSL2022 Introduction to IoT: 64.53%
+- PUSL2023 Mobile App Development: 70.68%
+- PUSL2024 Software Engineering 2: 67.20%
 ```
 
 <hr />

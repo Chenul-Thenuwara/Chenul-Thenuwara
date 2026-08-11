@@ -79,11 +79,18 @@ $ transcript --degree "BSc (Hons) Software Engineering" --university "Plymouth U
 
 <br />
 
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=Chenul-Thenuwara&color=00f0ff&style=flat-square&label=PROFILE+VISITS" alt="Profile Visits Counter" />
+</div>
+
+<br />
+
 ---
 
 <p align="center">
   Designed &amp; engineered by Chenul Dulmika Thenuwara.
 </p>
+
 
 
 

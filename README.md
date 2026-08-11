@@ -1,19 +1,6 @@
 <h1 align="center">Chenul Dulmika Thenuwara</h1>
 <h3 align="center">Full-Stack Software Engineer & Software Engineering Graduate</h3>
 
-<p align="center">
-  <a href="https://github.com/Chenul-Thenuwara">
-    <img src="https://img.shields.io/badge/DEGREE-FIRST_CLASS_HONOURS-a855f7?style=flat-square&logo=graduation-cap&logoColor=white" alt="First Class Honours" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/Chenul-Thenuwara">
-    <img src="https://img.shields.io/badge/ROLE-FULL--STACK_DEVELOPER-00f0ff?style=flat-square&logo=react&logoColor=white" alt="Full Stack Developer" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/Chenul-Thenuwara">
-    <img src="https://img.shields.io/badge/STATUS-OPEN_TO_ROLES-10b981?style=flat-square" alt="Status" />
-  </a>
-</p>
 
 <p align="center">
   Architecting scalable multi-tenant enterprise portals, real-time WebSockets engines, 3D WebGL spatial platforms, and low-latency desktop media streaming systems.

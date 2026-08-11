@@ -25,7 +25,7 @@ Full-Stack Software Engineer holding **First-Class Honours** with experience arc
 
 ## 🚀 About Me
 
-- 🎓 **Education:** **BSc (Hons) in Software Engineering – First Class Honours** from **NSBM Green University** (affiliated with **Plymouth University, UK**) (2022 – 2026).
+- 🎓 **Education:** **BSc (Hons) in Software Engineering – First Class Honours** from **NSBM Green University** (affiliated with **Plymouth University, UK**) (2023 – 2026).
 - 💼 **Current Role:** Information Technology Intern at **Anunine Holdings** (Dehiwala, Sri Lanka).
 - 💼 **Previous Role:** Full Stack Software Engineering Intern at **Algoarts** (Remote, Sri Lanka).
 - 🛠️ **Core Focus:** Multi-tenant enterprise portals, 3D WebGL spatial rendering, desktop media servers, & real-time WebSockets engines.
@@ -111,11 +111,11 @@ Full-Stack Software Engineer holding **First-Class Honours** with experience arc
 ## 🎓 Education & Certifications
 
 - 🎓 **NSBM Green University** (Affiliated with Plymouth University, UK)
-  - **BSc (Hons) in Software Engineering — First Class Honours** *(2022 – 2026)* | Colombo, Sri Lanka
+  - **BSc (Hons) in Software Engineering — First Class Honours** *(2023 – 2026)* | Colombo, Sri Lanka
 - 📜 **SLIIT City University**
-  - **Cisco Certified Network Associate (CCNA v7) — Merit** *(Dec 2022)* | Colombo, Sri Lanka
+  - **Cisco Certified Network Associate (CCNA v7) — Merit** *(Nov 2023)* | Colombo, Sri Lanka
 - 🏫 **D.S. Senanayake College**
-  - **G.C.E. Advanced Level (Technology Stream)** *(Mar 2022 – Nov 2023)* | Colombo, Sri Lanka
+  - **G.C.E. Advanced Level (Technology Stream)** *(Dec 2022)* | Colombo, Sri Lanka
 
 <p align="center">
   <img src="divider.svg" width="100%" />

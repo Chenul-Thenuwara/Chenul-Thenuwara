@@ -126,7 +126,7 @@
     
     <!-- Bio info columns (2-column layout to fill width nicely) -->
     <g transform="translate(25, 138)" font-size="12" fill="#9ca3af" class="font-sans" font-weight="600">
-      <text x="0" y="10">• First-Class Honours Degree (2022 – 2026)</text>
+      <text x="0" y="10">• First-Class Honours Degree (2023 – 2026)</text>
       <text x="0" y="28">• IT Intern @ Anunine Holdings | Ex-Algoarts Intern</text>
       
       <text x="410" y="10">• Focus: Multi-Tenant Portals, 3D WebGL &amp; WebSockets</text>

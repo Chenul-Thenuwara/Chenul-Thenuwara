@@ -1,33 +1,19 @@
-<div align="center">
-  <a href="https://github.com/Chenul-Thenuwara">
-    <img src="https://img.shields.io/badge/CHENUL%20DULMIKA%20THENUWARA-SOFTWARE%20ENGINEER-00f0ff?style=for-the-badge&logo=codefactor&logoColor=white#gh-dark-mode-only" alt="Header Dark" />
-    <img src="https://img.shields.io/badge/CHENUL%20DULMIKA%20THENUWARA-SOFTWARE%20ENGINEER-0969da?style=for-the-badge&logo=codefactor&logoColor=white#gh-light-mode-only" alt="Header Light" />
-  </a>
-</div>
-
-<br />
-
-<div align="center">
-  <a href="https://github.com/Chenul-Thenuwara">
-    <img src="https://img.shields.io/badge/DEGREE-FIRST_CLASS_HONOURS-a855f7?style=flat-square&logo=graduation-cap&logoColor=white#gh-dark-mode-only" alt="Degree Dark" />
-    <img src="https://img.shields.io/badge/DEGREE-FIRST_CLASS_HONOURS-8a2be2?style=flat-square&logo=graduation-cap&logoColor=white#gh-light-mode-only" alt="Degree Light" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/Chenul-Thenuwara">
-    <img src="https://img.shields.io/badge/ROLE-FULL--STACK_DEVELOPER-00f0ff?style=flat-square&logo=react&logoColor=white#gh-dark-mode-only" alt="Role Dark" />
-    <img src="https://img.shields.io/badge/ROLE-FULL--STACK_DEVELOPER-0969da?style=flat-square&logo=react&logoColor=white#gh-light-mode-only" alt="Role Light" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/Chenul-Thenuwara">
-    <img src="https://img.shields.io/badge/STATUS-OPEN_TO_ROLES-10b981?style=flat-square#gh-dark-mode-only" alt="Status Dark" />
-    <img src="https://img.shields.io/badge/STATUS-OPEN_TO_ROLES-1a7f37?style=flat-square#gh-light-mode-only" alt="Status Light" />
-  </a>
-</div>
-
-<hr />
-
 <h1 align="center">Chenul Dulmika Thenuwara</h1>
 <h3 align="center">Full-Stack Software Engineer & Software Engineering Graduate</h3>
+
+<p align="center">
+  <a href="https://github.com/Chenul-Thenuwara">
+    <img src="https://img.shields.io/badge/DEGREE-FIRST_CLASS_HONOURS-a855f7?style=flat-square&logo=graduation-cap&logoColor=white" alt="First Class Honours" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/Chenul-Thenuwara">
+    <img src="https://img.shields.io/badge/ROLE-FULL--STACK_DEVELOPER-00f0ff?style=flat-square&logo=react&logoColor=white" alt="Full Stack Developer" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/Chenul-Thenuwara">
+    <img src="https://img.shields.io/badge/STATUS-OPEN_TO_ROLES-10b981?style=flat-square" alt="Status" />
+  </a>
+</p>
 
 <p align="center">
   Architecting scalable multi-tenant enterprise portals, real-time WebSockets engines, 3D WebGL spatial platforms, and low-latency desktop media streaming systems.
@@ -149,47 +135,30 @@ $ transcript --degree "BSc (Hons) Software Engineering" --university "Plymouth U
 
 <hr />
 
-## GitHub Analytics & System Telemetry
-
-<div align="center">
-  <a href="https://github.com/Chenul-Thenuwara">
-    <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Chenul-Thenuwara&show_icons=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&border_color=30363d#gh-dark-mode-only" alt="GitHub Stats Dark" height="190px" />
-    <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Chenul-Thenuwara&show_icons=true&bg_color=ffffff&title_color=0969da&icon_color=0969da&text_color=24292f&border_color=d0d7de#gh-light-mode-only" alt="GitHub Stats Light" height="190px" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/Chenul-Thenuwara">
-    <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Chenul-Thenuwara&layout=compact&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&border_color=30363d#gh-dark-mode-only" alt="Top Languages Dark" height="190px" />
-    <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Chenul-Thenuwara&layout=compact&bg_color=ffffff&title_color=0969da&icon_color=0969da&text_color=24292f&border_color=d0d7de#gh-light-mode-only" alt="Top Languages Light" height="190px" />
-  </a>
-</div>
-
-<hr />
-
 ## Connect & Social Hub
 
 <div align="center">
   <a href="https://www.linkedin.com/in/chenul-thenuwara-26b73a240/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white#gh-dark-mode-only" alt="LinkedIn Dark" />
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white#gh-light-mode-only" alt="LinkedIn Light" />
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   &nbsp;&nbsp;
   <a href="https://github.com/Chenul-Thenuwara" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white#gh-dark-mode-only" alt="GitHub Dark" />
-    <img src="https://img.shields.io/badge/GitHub-24292f?style=for-the-badge&logo=github&logoColor=white#gh-light-mode-only" alt="GitHub Light" />
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile" />
   </a>
   &nbsp;&nbsp;
   <a href="mailto:chenuldulmikathenuwara@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white#gh-dark-mode-only" alt="Email Dark" />
-    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white#gh-light-mode-only" alt="Email Light" />
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Direct" />
   </a>
 </div>
 
 <br />
 
-<hr />
+---
 
 <p align="center">
   Designed &amp; engineered by Chenul Dulmika Thenuwara.
+</p>
+y Chenul Dulmika Thenuwara.
 </p>
 
 

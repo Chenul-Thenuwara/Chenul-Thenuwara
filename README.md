@@ -5,54 +5,46 @@
   </a>
 </p>
 
-<!-- Live interactive statistics pill badges -->
+<!-- Dynamic Status & Core Domain Badges -->
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=Chenul-Thenuwara&label=PROFILE+VIEWS&color=3b82f6&style=flat-square" alt="Profile Views" />&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/STATUS-BUILDING_COOL_SHIT-10b981?style=flat-square" alt="Status" />&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/HONOURS-FIRST_CLASS-a855f7?style=flat-square" alt="Honours" />
+  <img src="https://komarev.com/ghpvc/?username=Chenul-Thenuwara&label=PROFILE+VIEWS&color=00f0ff&style=flat-square" alt="Profile Views" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/DEGREE-FIRST_CLASS_HONOURS-a855f7?style=flat-square&logo=graduation-cap&logoColor=white" alt="First Class Honours" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/ROLE-FULL--STACK_ENGINEER-00f0ff?style=flat-square&logo=codefactor&logoColor=white" alt="Role" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/STATUS-OPEN_TO_OPPORTUNITIES-10b981?style=flat-square" alt="Status" />
 </div>
 
 <p align="center">
   <img src="divider.svg" width="100%" />
 </p>
 
-# Hey there! I'm Chenul Dulmika Thenuwara ⚡
+<!-- Header & Value Proposition -->
+<h1 align="center">Chenul Dulmika Thenuwara</h1>
+<h3 align="center">Full-Stack Software Developer & Software Engineering Graduate</h3>
 
-> **Full-Stack Software Engineer** • **3D WebGL Enthusiast** • **Systems Architect**
-> 
-> *I transform complex technical problems into fast, interactive, and beautifully architected digital experiences — from real-time WebSockets engines to desktop media servers and 3D web apps.*
+<p align="center">
+  <em>Engineering high-concurrency real-time engines, 3D WebGL spatial platforms, desktop media servers, and multi-tenant enterprise architectures with a focus on clean code and performance.</em>
+</p>
 
 <p align="center">
   <img src="divider.svg" width="100%" />
 </p>
 
-## 🎮 Press Start // Quick Facts
+<!-- Professional Snapshot -->
+## 🎯 Professional Snapshot
 
-```typescript
-const chenul = {
-  status: "🚀 Open for Software Engineering Opportunities",
-  degree: "BSc (Hons) in Software Engineering — First Class Honours 🏆",
-  currentRole: "IT Intern @ Anunine Holdings 🏢",
-  previousRole: "Full-Stack SE Intern @ Algoarts 💻",
-  superpowers: [
-    "Next.js 16 & React 19 Architectures",
-    "3D WebGL Spatial Calculations (Three.js / R3F)",
-    "Real-Time WebSocket Engines (Socket.IO)",
-    "Cross-Platform Desktop Apps (Electron + Node.js)",
-    "Multi-Tenant Enterprise Systems (Firebase / MongoDB / PHP 8)"
-  ],
-  coffeeToCodeRatio: "100%"
-};
-```
+- 🎓 **Academic Excellence:** **BSc (Hons) in Software Engineering — First Class Honours** from **NSBM Green University** (affiliated with **Plymouth University, UK**) *(2023 – 2026)*.
+- 🏢 **Enterprise Production Experience:** Information Technology Intern at **Anunine Holdings** (architecting multi-tenant IT asset management portals for 10 Strategic Business Units) & former Full-Stack SE Intern at **Algoarts** (building ERP systems & commercial travel platforms).
+- ⚙️ **Architectural Principles:** Dedicated to scalable full-stack workflows, component-driven UI/UX, microservices, secure RBAC authentication, and low-latency streaming infrastructure.
+- 🌐 **Open-Source & Community Leader:** Former Media Lead and active Council Member at **FOSS Community – NSBM Green University**, driving tech event organization and open-source initiatives.
 
 <p align="center">
   <img src="divider.svg" width="100%" />
 </p>
 
+<!-- Interactive Bento Dashboard -->
 <p align="center">
   <a href="https://github.com/Chenul-Thenuwara">
-    <!-- Hover-active, animated, glassmorphic bento grid containing core concepts and technology loops -->
-    <img src="bento.svg" alt="Interactive Developer Dashboard" width="100%" />
+    <img src="bento.svg" alt="Developer Dashboard & Highlights" width="100%" />
   </a>
 </p>
 
@@ -60,81 +52,57 @@ const chenul = {
   <img src="divider.svg" width="100%" />
 </p>
 
-## 🚀 Featured Build Projects
-
-<details open>
-<summary><b>🎬 Cineora — Self-Hosted Desktop Media Hub</b> <i>(Electron 28 • React 19 • Express 5 • MongoDB • FFmpeg)</i></summary>
-<br/>
-
-- ⚡ **Low-Latency Streaming:** Built an HTTP 206 Partial Content video controller with byte-range parsing & custom readable streams for instant seeking.
-- 🍿 **Automated Scanner:** FFprobe media scanner extracting 4K/HDR metadata & TV hierarchy regex parsing (`SxxExx`).
-- 🛠️ **Multi-Process Architecture:** Managed background Express server lifecycles directly inside Electron.
-</details>
-
-<br/>
-
-<details open>
-<summary><b>📐 3D/2D Spatial Interior Design Platform</b> <i>(Next.js 16 • React 19 • Three.js • R3F • Firebase)</i></summary>
-<br/>
-
-- 🔮 **2D to 3D Conversion:** Dynamic 2D grid vector calculations instantly rendered into real-time 3D WebGL walls and spaces.
-- 📦 **Asset Streaming Pipeline:** Async 3D asset resolution streaming GLTF/GLB models dynamically from Firebase Storage.
-- 📐 **Parametric Geometry:** Engineered dynamic 3D wall mesh generation based on user room dimensions.
-</details>
-
-<br/>
-
-<details open>
-<summary><b>🍿 My Flix — Realtime Cinema Booking Engine</b> <i>(React 19 • TypeScript • Socket.IO • Express • Docker)</i></summary>
-<br/>
-
-- ⚡ **Zero Race Conditions:** Socket.IO WebSocket seat locking engine preventing concurrent double-bookings during checkout.
-- 💳 **Secure Payments:** Integrated PayHere payment gateway with MD5 signature verification & client-side PDF ticket generation.
-</details>
-
-<p align="center">
-  <img src="divider.svg" width="100%" />
-</p>
-
-## 🏢 Where I've Made Impact
-
-### 🔹 **Anunine Holdings** | *IT Intern* *(March 2026 – Present)*
-- 🏗️ Architected a **Multi-Tenant IT Asset Management Portal** in Next.js 16, React 19 & Firebase for 10 Strategic Business Units.
-- ⏱️ Engineered a custom **Business-Hours SLA Engine** in TypeScript (UTC+5:30) with automated billing alerts via Vercel Cron & Webhooks.
-- 🔐 Implemented Firebase Custom Claims **RBAC across 5 sub-portals** with digital asset handovers.
-- 🌐 Developed corporate web platforms in PHP 8 with custom `fsockopen` socket SMTP engines & CI/CD.
-
-### 🔹 **Algoarts** | *Full Stack SE Intern* *(Aug 2025 – Feb 2026)*
-- 🛒 Architected **Ryzenor ERP** (Next.js 16, Electron 28, MongoDB) with POS, apparel matrix tracking & Text.lk SMS.
-- 📊 Engineered automated inventory reorder alerts, PO workflows & interactive Recharts sales analytics.
-- ✈️ Built a commercial travel platform in Next.js 16 with a 7-step tour wizard, MongoDB CMS & Schema.org JSON-LD SEO.
-
-<p align="center">
-  <img src="divider.svg" width="100%" />
-</p>
-
+<!-- Tech Arsenal (Categorized Grid) -->
 ## 🧰 Tech Arsenal
 
-| Domain | Arsenal |
+| Category | Technologies & Tools |
 | :--- | :--- |
-| **Languages** | `TypeScript` `JavaScript` `PHP 8` `Java` `C#` `Python` `SQL` `HTML5/CSS3` |
-| **Frontend & 3D** | `Next.js 16` `React 19` `Three.js` `React Three Fiber` `Tailwind CSS` |
-| **Backend & Cloud** | `Node.js 20` `Express 5` `Firebase` `Socket.IO v4` `MongoDB 8` `REST APIs` |
-| **Desktop & Infra** | `Electron 28` `Docker` `GitHub Actions` `Git` `Vercel Cron` `FFmpeg` `Apache` |
+| **Languages & Frameworks** | <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" /> <img src="https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=nextdotjs&logoColor=white" /> <img src="https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB" /> <img src="https://img.shields.io/badge/Node.js_20-43853D?style=flat-square&logo=node.js&logoColor=white" /> <img src="https://img.shields.io/badge/Electron_28-47848F?style=flat-square&logo=electron&logoColor=white" /> <img src="https://img.shields.io/badge/PHP_8-777BB4?style=flat-square&logo=php&logoColor=white" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" /> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> |
+| **Styling & UI Engine** | <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" /> <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=three.js&logoColor=white" /> <img src="https://img.shields.io/badge/React_Three_Fiber-000000?style=flat-square&logo=react&logoColor=61DAFB" /> <img src="https://img.shields.io/badge/HTML5/CSS3-E34F26?style=flat-square&logo=html5&logoColor=white" /> |
+| **Backend & Databases** | <img src="https://img.shields.io/badge/MongoDB_8-4EA94B?style=flat-square&logo=mongodb&logoColor=white" /> <img src="https://img.shields.io/badge/Express_5-404D59?style=flat-square&logo=express&logoColor=white" /> <img src="https://img.shields.io/badge/Socket.io_v4-010101?style=flat-square&logo=socketdotio&logoColor=white" /> <img src="https://img.shields.io/badge/REST_APIs-0055DA?style=flat-square&logo=postman&logoColor=white" /> |
+| **Cloud & Infrastructure** | <img src="https://img.shields.io/badge/Google_Cloud_Platform-4285F4?style=flat-square&logo=googlecloud&logoColor=white" /> <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" /> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" /> <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white" /> <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" /> <img src="https://img.shields.io/badge/Vercel_Cron-000000?style=flat-square&logo=vercel&logoColor=white" /> <img src="https://img.shields.io/badge/FFmpeg-007808?style=flat-square&logo=ffmpeg&logoColor=white" /> <img src="https://img.shields.io/badge/CCNA_v7-1D70B8?style=flat-square&logo=cisco&logoColor=white" /> |
 
 <p align="center">
   <img src="divider.svg" width="100%" />
 </p>
 
-## 🏆 Education & Leadership
+<!-- Featured Projects & Focus Areas -->
+## 💻 Featured Projects & Architectural Builds
 
-- 🎓 **NSBM Green University / Plymouth University (UK)** — *BSc (Hons) Software Engineering (First Class Honours)* `2023 – 2026`
-- 📜 **SLIIT City University** — *Cisco Certified Network Associate (CCNA v7 - Merit)* `Nov 2023`
-- 📢 **FOSS Community (NSBM)** — *Media Lead & Council Member* `2023 – 2026` (Drove 40%+ digital engagement growth across social tech campaigns).
+### 🎬 **Cineora — Self-Hosted Desktop Media Hub**
+> **Stack:** *Electron 28, React 19, Express 5, MongoDB, FFmpeg*
+- **Low-Latency Partial Content Streaming:** Engineered an HTTP 206 video controller with byte-range parsing and custom Node.js readable streams for zero-buffer seeking.
+- **Automated Media Engine:** Integrated FFprobe background worker to extract 4K/HDR metadata & TV episode hierarchy regex parsing (`SxxExx`).
+- **Process Orchestration:** Architected multi-process Express lifecycle management within an Electron desktop shell.
+
+---
+
+### 📐 **3D/2D Spatial Interior Design Platform**
+> **Stack:** *Next.js 16, React 19, Three.js, React Three Fiber (R3F), Firebase Storage*
+- **2D-to-3D Real-Time Spatial Rendering:** Vector coordinate math translating interactive 2D floor plans into dynamic 3D WebGL rooms.
+- **Dynamic Parametric Geometry:** Algorithmic 3D wall mesh generation dynamically calculated from user-defined room boundaries.
+- **Async Asset Pipeline:** High-performance model resolution streaming GLTF/GLB 3D assets directly from Firebase Storage.
+
+---
+
+### 🍿 **My Flix — Real-Time Cinema Reservation Engine**
+> **Stack:** *React 19, TypeScript, Socket.IO v4, Express 5, Docker, PayHere*
+- **High-Concurrency Seat Locking:** Real-time WebSockets engine built with Socket.IO to prevent double-booking race conditions during high-demand checkouts.
+- **Transactional Gateway Integration:** Integrated PayHere MD5 signature verification with client-side PDF e-ticket generation.
+
+---
+
+### 🏢 **Enterprise IT Asset Management Portal** *(Anunine Holdings)*
+> **Stack:** *Next.js 16, React 19, Firebase (Auth/Firestore), TypeScript, Vercel Cron*
+- **Multi-Tenant Architecture:** Scalable IT asset portal servicing 10 Strategic Business Units with Firebase Custom Claims RBAC across 5 sub-portals (`/admin`, `/it`, `/hr`, `/sbu`, `/employee`).
+- **SLA & Automated Reminders:** Business-hours SLA engine in TypeScript (UTC+5:30) with automated billing alerts via Vercel Cron and webhooks.
 
 <p align="center">
   <img src="divider.svg" width="100%" />
 </p>
+
+<!-- GitHub Analytics -->
+## 📊 GitHub Analytics
 
 <p align="center">
   <a href="https://github.com/Chenul-Thenuwara">
@@ -164,16 +132,20 @@ const chenul = {
   <img src="divider.svg" width="100%" />
 </p>
 
-## 💬 Let's Build Something Awesome Together!
+<!-- Contact & Links -->
+## 🤝 Connect & Collaborate
 
-Whether you want to discuss **Next.js 16 architectures, 3D WebGL rendering, real-time WebSockets, or software engineering opportunities**, my inbox is always open!
+I am always interested in discussing **full-stack engineering roles, 3D web graphics, high-performance real-time architectures, and open-source collaborations**.
 
 <div align="center">
   <a href="https://www.linkedin.com/in/chenul-thenuwara-26b73a240/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect%20on%20LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Profile" />
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>&nbsp;&nbsp;
+  <a href="https://github.com/Chenul-Thenuwara" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile" />
   </a>&nbsp;&nbsp;
   <a href="mailto:chenuldulmikathenuwara@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Send%20a%20Message-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Direct" />
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Direct" />
   </a>
 </div>
 
@@ -182,6 +154,6 @@ Whether you want to discuss **Next.js 16 architectures, 3D WebGL rendering, real
 ---
 
 <p align="center">
-  Designed &amp; engineered with ⚡ &amp; ❤️ by <a href="https://github.com/Chenul-Thenuwara">Chenul Thenuwara</a>.
+  Designed &amp; engineered with precision by <a href="https://github.com/Chenul-Thenuwara">Chenul Dulmika Thenuwara</a>.
 </p>
 

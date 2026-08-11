@@ -147,4 +147,50 @@ $ transcript --degree "BSc (Hons) Software Engineering" --university "Plymouth U
 - PUSL2024 Software Engineering 2: 67.20% (Grade A)
 ```
 
+<hr />
+
+## GitHub Analytics & System Telemetry
+
+<div align="center">
+  <a href="https://github.com/Chenul-Thenuwara">
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Chenul-Thenuwara&show_icons=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&border_color=30363d#gh-dark-mode-only" alt="GitHub Stats Dark" height="190px" />
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Chenul-Thenuwara&show_icons=true&bg_color=ffffff&title_color=0969da&icon_color=0969da&text_color=24292f&border_color=d0d7de#gh-light-mode-only" alt="GitHub Stats Light" height="190px" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/Chenul-Thenuwara">
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Chenul-Thenuwara&layout=compact&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&border_color=30363d#gh-dark-mode-only" alt="Top Languages Dark" height="190px" />
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Chenul-Thenuwara&layout=compact&bg_color=ffffff&title_color=0969da&icon_color=0969da&text_color=24292f&border_color=d0d7de#gh-light-mode-only" alt="Top Languages Light" height="190px" />
+  </a>
+</div>
+
+<hr />
+
+## Connect & Social Hub
+
+<div align="center">
+  <a href="https://www.linkedin.com/in/chenul-thenuwara-26b73a240/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white#gh-dark-mode-only" alt="LinkedIn Dark" />
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white#gh-light-mode-only" alt="LinkedIn Light" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/Chenul-Thenuwara" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white#gh-dark-mode-only" alt="GitHub Dark" />
+    <img src="https://img.shields.io/badge/GitHub-24292f?style=for-the-badge&logo=github&logoColor=white#gh-light-mode-only" alt="GitHub Light" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="mailto:chenuldulmikathenuwara@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white#gh-dark-mode-only" alt="Email Dark" />
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white#gh-light-mode-only" alt="Email Light" />
+  </a>
+</div>
+
+<br />
+
+<hr />
+
+<p align="center">
+  Designed &amp; engineered by Chenul Dulmika Thenuwara.
+</p>
+
+
 

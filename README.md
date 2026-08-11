@@ -41,67 +41,6 @@ $ status --user chenul-thenuwara
 
 <hr />
 
-## Featured Projects & Experience Matrix
-
-<table>
-  <thead>
-    <tr>
-      <th>System / Project</th>
-      <th>Architectural Highlights & Engineering Impact</th>
-      <th>Tech Stack</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><b>Cineora</b><br /><i>Self-Hosted Desktop Media Hub</i></td>
-      <td>
-        • Engineered HTTP 206 Partial Content video controller with byte-range parsing and Node.js readable streams for low-latency seeking.<br />
-        • Automated FFprobe scanner extracting 4K/HDR metadata & TV episode hierarchy regex parsing (SxxExx).<br />
-        • Managed multi-process Express lifecycle execution inside an Electron desktop app.
-      </td>
-      <td><code>Electron 28</code><br /><code>React 19</code><br /><code>Express 5</code><br /><code>MongoDB</code><br /><code>FFmpeg</code></td>
-    </tr>
-    <tr>
-      <td><b>3D/2D Spatial Interior Design Platform</b><br /><i>Real-Time WebGL Planner</i></td>
-      <td>
-        • 2D grid vector coordinate conversion to real-time 3D WebGL spatial rendering.<br />
-        • Dynamic parametric 3D wall geometry calculations based on user-defined room boundaries.<br />
-        • Async model resolution streaming GLTF/GLB 3D assets directly from Firebase Storage.
-      </td>
-      <td><code>Next.js 16</code><br /><code>React 19</code><br /><code>Three.js</code><br /><code>R3F</code><br /><code>Firebase</code></td>
-    </tr>
-    <tr>
-      <td><b>My Flix</b><br /><i>Real-Time Cinema Booking Engine</i></td>
-      <td>
-        • High-concurrency seat locking system powered by Socket.IO WebSockets to prevent checkout race conditions.<br />
-        • PayHere payment gateway integration with MD5 signature validation & client-side PDF e-ticket generation.
-      </td>
-      <td><code>React 19</code><br /><code>TypeScript</code><br /><code>Socket.IO</code><br /><code>Express</code><br /><code>Docker</code></td>
-    </tr>
-    <tr>
-      <td><b>Enterprise IT Asset Portal</b><br /><i>Anunine Holdings</i></td>
-      <td>
-        • Multi-tenant enterprise asset portal servicing 10 Strategic Business Units.<br />
-        • Firebase Custom Claims RBAC across 5 distinct sub-portals (/admin, /it, /hr, /sbu, /employee).<br />
-        • Business-hours SLA engine in TypeScript (UTC+5:30) with Vercel Cron billing webhooks.<br />
-        • Developed corporate web platforms (KSPA Accessories) in PHP 8 with custom fsockopen socket SMTP engines.
-      </td>
-      <td><code>Next.js 16</code><br /><code>React 19</code><br /><code>Firebase</code><br /><code>TypeScript</code><br /><code>PHP 8</code></td>
-    </tr>
-    <tr>
-      <td><b>Ryzenor ERP System</b><br /><i>Algoarts</i></td>
-      <td>
-        • Cross-platform ERP featuring high-speed POS, apparel matrix tracking, and Text.lk SMS dispatches.<br />
-        • Automated inventory reorder alerts, Purchase Order (PO) workflows, and interactive Recharts sales analytics.<br />
-        • Built commercial travel platform in Next.js 16 featuring 7-step tour wizard, MongoDB CMS, and JSON-LD Schema.org SEO.
-      </td>
-      <td><code>Next.js 16</code><br /><code>Electron 28</code><br /><code>MongoDB</code><br /><code>JWT / RBAC</code></td>
-    </tr>
-  </tbody>
-</table>
-
-<hr />
-
 ## Academic Transcript & Module Marks
 
 ```console
@@ -145,8 +84,7 @@ $ transcript --degree "BSc (Hons) Software Engineering" --university "Plymouth U
 <p align="center">
   Designed &amp; engineered by Chenul Dulmika Thenuwara.
 </p>
-y Chenul Dulmika Thenuwara.
-</p>
+
 
 
 

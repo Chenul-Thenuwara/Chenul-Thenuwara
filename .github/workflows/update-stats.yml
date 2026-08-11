@@ -1,0 +1,44 @@
+name: Update GitHub Stats & Top Languages
+
+on:
+  schedule:
+    # Run once every 24 hours at midnight UTC
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/update-stats.yml'
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate Overall Stats Card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=Chenul-Thenuwara&show_icons=true&bg_color=04060a&title_color=00f0ff&icon_color=a855f7&text_color=e5e7eb&border_color=1f2937&hide_border=false
+          path: stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate Top Languages Card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-languages
+          options: username=Chenul-Thenuwara&layout=compact&bg_color=04060a&title_color=00f0ff&icon_color=a855f7&text_color=e5e7eb&border_color=1f2937&hide_border=false
+          path: top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add stats.svg top-langs.svg
+          git commit -m "chore: update static stats SVGs [skip ci]" || exit 0
+          git push origin main

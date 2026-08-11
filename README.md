@@ -17,7 +17,7 @@
 
 # Hi there, I'm Chenul Dulmika Thenuwara! 👋
 
-I am a passionate **Software Engineer** and **Full-Stack Developer** dedicated to building robust, scalable, and performance-driven digital solutions. I specialize in modern web ecosystems, cross-platform mobile development, and automated workflows.
+Full-Stack Software Engineer holding **First-Class Honours** with experience architecting multi-tenant enterprise portals, cross-platform ERP systems, desktop media servers, 3D WebGL platforms, and real-time WebSockets engines using **Next.js, React, TypeScript, Electron, PHP, Node.js, and Firebase**.
 
 <p align="center">
   <img src="divider.svg" width="100%" />
@@ -25,10 +25,11 @@ I am a passionate **Software Engineer** and **Full-Stack Developer** dedicated t
 
 ## 🚀 About Me
 
-- 🎓 **Education:** Final-year BSc (Honours) Software Engineering undergraduate at **NSBM Green University** (in association with **Plymouth University**) — graduating November 2026.
-- 💼 **Current Role:** IT Intern at **Anunine Holdings Private Limited**.
-- 🛠️ **Core Focus:** Building seamless user interfaces, developing optimized backend structures, and exploring self-hosted infrastructure.
-- 🧠 **Tech Passions:** Beyond core software engineering, I am passionate about exploring emerging technologies, generative AI integration, DevOps pipelines, and workflow automation.
+- 🎓 **Education:** **BSc (Hons) in Software Engineering – First Class Honours** from **NSBM Green University** (affiliated with **Plymouth University, UK**) (2022 – 2026).
+- 💼 **Current Role:** Information Technology Intern at **Anunine Holdings** (Dehiwala, Sri Lanka).
+- 💼 **Previous Role:** Full Stack Software Engineering Intern at **Algoarts** (Remote, Sri Lanka).
+- 🛠️ **Core Focus:** Multi-tenant enterprise portals, 3D WebGL spatial rendering, desktop media servers, & real-time WebSockets engines.
+- 🧠 **Tech Passions:** Generative AI integration, DevOps & CI/CD pipelines, workflow automation, and self-hosted infrastructure.
 
 <p align="center">
   <img src="divider.svg" width="100%" />
@@ -45,14 +46,87 @@ I am a passionate **Software Engineer** and **Full-Stack Developer** dedicated t
   <img src="divider.svg" width="100%" />
 </p>
 
+## 💼 Work Experience
+
+### 🏢 **Anunine Holdings** — *Information Technology Intern*
+*Dehiwala, Sri Lanka | March 2026 – Present*
+- **Multi-Tenant Enterprise Portal:** Architected a multi-tenant Enterprise IT Asset Management Portal in Next.js 16, React 19, and Firebase for 10 Strategic Business Units.
+- **SLA Engine & Billing Automation:** Engineered a business-hours SLA engine in TypeScript (UTC+5:30) and automated IT billing reminders via Vercel Cron and Webhooks.
+- **RBAC Security & Portals:** Implemented RBAC via Firebase Custom Claims across 5 portals (`/admin`, `/it`, `/hr`, `/sbu`, `/employee`) with digital asset handovers.
+- **Corporate Systems:** Developed corporate web platforms (KSPA Accessories) in PHP 8 with custom socket SMTP engines (`fsockopen`) and CI/CD pipelines.
+
+<br/>
+
+### 🏢 **Algoarts** — *Full Stack Software Engineering Intern*
+*Remote, Sri Lanka | Aug 2025 – Feb 2026*
+- **Ryzenor ERP System:** Architected Ryzenor ERP (Next.js 16, Electron 28, MongoDB) featuring high-speed POS, apparel matrix tracking, and Text.lk SMS dispatches.
+- **Inventory & Analytics Workflows:** Engineered automated inventory reorder alerts, Purchase Order (PO) workflows, and interactive Recharts sales analytics dashboards.
+- **Commercial Travel Platform:** Built a commercial travel platform in Next.js 16 featuring a 7-step custom tour wizard, MongoDB CMS, and JSON-LD Schema.org SEO.
+- **Security & Authorization:** Implemented secure RESTful APIs, JWT authentication, and RBAC to protect application data streams across enterprise roles.
+
+<p align="center">
+  <img src="divider.svg" width="100%" />
+</p>
+
+## 💻 Featured Projects
+
+### 🎬 **Cineora – Self-Hosted Desktop Media Hub** *(2025 – 2026)*
+> **Stack:** *Electron 28, React 19, Express 5, MongoDB, FFmpeg*
+- Engineered a desktop streaming app managing multi-process background Express lifecycle execution.
+- Built an HTTP 206 Partial Content video streaming controller with byte-range parsing and Node.js readable streams for low-latency seeking.
+- Implemented an automated media scanner using FFprobe to extract 4K/HDR metadata and regex TV episode hierarchies (`SxxExx`).
+
+---
+
+### 📐 **3D/2D Spatial Interior Design Platform** *(2026)*
+> **Stack:** *Next.js 16, React 19, Three.js, React Three Fiber (R3F), Firebase*
+- Architected a web app enabling floor planning via 2D grid interfaces and real-time 3D WebGL spatial rendering.
+- Implemented dynamic parametric 3D wall geometry calculations and 2D-to-3D coordinate vector conversion.
+- Engineered an async 3D asset resolution pipeline streaming GLTF/GLB models from Firebase Storage.
+
+---
+
+### 🍿 **My Flix – Realtime Cinema Reservation System** *(2026)*
+> **Stack:** *React 19, TypeScript, Socket.IO, Express, Docker*
+- Engineered a real-time seat locking engine using Socket.IO WebSockets to prevent booking race conditions.
+- Integrated PayHere payment gateway with MD5 signature verification and client-side PDF e-ticket generation.
+
+<p align="center">
+  <img src="divider.svg" width="100%" />
+</p>
+
 ## 🛠️ Tech Stack & Tools
 
 | Category | Technologies |
 | :--- | :--- |
-| **Frontend Ecosystem** | <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" /> <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" /> <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" /> <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" /> <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" /> <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" /> |
-| **Backend & Databases** | <img src="https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white" /> <img src="https://img.shields.io/badge/Express.js-404D59?style=flat-square&logo=express&logoColor=white" /> <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" /> <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white" /> |
-| **Cross-Platform** | <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" /> <img src="https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white" /> |
-| **DevOps & Productivity** | <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white" /> <img src="https://img.shields.io/badge/GitHub_Copilot-8C4FFF?style=flat-square&logo=githubcopilot&logoColor=white" /> <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" /> <img src="https://img.shields.io/badge/Agile-0052CC?style=flat-square&logo=jira&logoColor=white" /> |
+| **Languages** | <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" /> <img src="https://img.shields.io/badge/PHP_8-777BB4?style=flat-square&logo=php&logoColor=white" /> <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" /> <img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white" /> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white" /> <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" /> <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" /> |
+| **Frontend & Desktop** | <img src="https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=nextdotjs&logoColor=white" /> <img src="https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB" /> <img src="https://img.shields.io/badge/Electron_28-47848F?style=flat-square&logo=electron&logoColor=white" /> <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=three.js&logoColor=white" /> <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" /> |
+| **Backend & Cloud** | <img src="https://img.shields.io/badge/Node.js_20-43853D?style=flat-square&logo=node.js&logoColor=white" /> <img src="https://img.shields.io/badge/Express_5-404D59?style=flat-square&logo=express&logoColor=white" /> <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" /> <img src="https://img.shields.io/badge/Socket.io_v4-010101?style=flat-square&logo=socketdotio&logoColor=white" /> <img src="https://img.shields.io/badge/MongoDB_8-4EA94B?style=flat-square&logo=mongodb&logoColor=white" /> |
+| **Tools & Infrastructure** | <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" /> <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white" /> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" /> <img src="https://img.shields.io/badge/Vercel_Cron-000000?style=flat-square&logo=vercel&logoColor=white" /> <img src="https://img.shields.io/badge/FFmpeg-007808?style=flat-square&logo=ffmpeg&logoColor=white" /> <img src="https://img.shields.io/badge/CCNA_v7-1D70B8?style=flat-square&logo=cisco&logoColor=white" /> |
+
+<p align="center">
+  <img src="divider.svg" width="100%" />
+</p>
+
+## 🎓 Education & Certifications
+
+- 🎓 **NSBM Green University** (Affiliated with Plymouth University, UK)
+  - **BSc (Hons) in Software Engineering — First Class Honours** *(2022 – 2026)* | Colombo, Sri Lanka
+- 📜 **SLIIT City University**
+  - **Cisco Certified Network Associate (CCNA v7) — Merit** *(Dec 2022)* | Colombo, Sri Lanka
+- 🏫 **D.S. Senanayake College**
+  - **G.C.E. Advanced Level (Technology Stream)** *(Mar 2022 – Nov 2023)* | Colombo, Sri Lanka
+
+<p align="center">
+  <img src="divider.svg" width="100%" />
+</p>
+
+## 🏛️ Leadership & Community
+
+- 📢 **FOSS Community – NSBM Green University** | *Media Lead (Mar 2025 – Aug 2025)*
+  - Drove a 40% increase in digital engagement across social platforms through technical content campaigns.
+- 🌐 **FOSS Community – NSBM Green University** | *Council Member & Volunteer (Aug 2023 – Feb 2026)*
+  - Co-organized national tech events including Software Freedom Day, Arduino Day, and Hacktonight.
 
 <p align="center">
   <img src="divider.svg" width="100%" />
@@ -68,7 +142,7 @@ I am a passionate **Software Engineer** and **Full-Stack Developer** dedicated t
 </p>
 <p align="center">
   <a href="https://github.com/Chenul-Thenuwara">
-    <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Chenul-Thenuwara&show_icons=true&bg_color=04060a&title_color=00f0ff&icon_color=a855f7&text_color=e5e7eb&border_color=1f2937&hide_border=false" alt="Chenul's GitHub Stats" height="195px" />
+    <img src="stats.svg" alt="Chenul's GitHub Stats" height="195px" />
   </a>&nbsp;&nbsp;
   <a href="https://github.com/Chenul-Thenuwara">
     <img src="streak.svg" alt="Chenul's Streak Stats" height="195px" />
@@ -77,7 +151,7 @@ I am a passionate **Software Engineer** and **Full-Stack Developer** dedicated t
 
 <p align="center">
   <a href="https://github.com/Chenul-Thenuwara">
-    <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Chenul-Thenuwara&layout=compact&bg_color=04060a&title_color=00f0ff&icon_color=a855f7&text_color=e5e7eb&border_color=1f2937&hide_border=false" alt="Top Languages Summary" width="400px" />
+    <img src="top-langs.svg" alt="Top Languages Summary" width="400px" />
   </a>
 </p>
 
@@ -111,3 +185,4 @@ I am a passionate **Software Engineer** and **Full-Stack Developer** dedicated t
 <p align="center">
   Designed &amp; engineered with ❤️ by <a href="https://github.com/Chenul-Thenuwara">Chenul Thenuwara</a>.
 </p>
+

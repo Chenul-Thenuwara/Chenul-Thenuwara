@@ -213,9 +213,9 @@
           role: "DevOps &amp; Automation",
         </text>
         
-        <text x="20" y="50">focus: <tspan fill="#00f0ff">["Full_Stack", "Gen_AI", "DevOps"]</tspan>,</text>
-        <text x="20" y="70">passions: <tspan fill="#00f0ff">["Automation", "New_Tech", "Coding"]</tspan>,</text>
-        <text x="20" y="90">education: <tspan fill="#00f0ff">"BSc Hons SE (Plymouth)"</tspan></text>
+        <text x="20" y="50">focus: <tspan fill="#00f0ff">["Enterprise", "3D_WebGL", "Sockets"]</tspan>,</text>
+        <text x="20" y="70">passions: <tspan fill="#00f0ff">["Next.js_16", "Electron", "AI"]</tspan>,</text>
+        <text x="20" y="90">education: <tspan fill="#00f0ff">"BSc Hons SE (1st Class)"</tspan></text>
         
         <text x="0" y="110" fill="#a855f7" font-weight="700">};</text>
       </g>

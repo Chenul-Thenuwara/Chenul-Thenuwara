@@ -118,19 +118,19 @@
     <text x="75" y="42" font-size="10" font-weight="700" fill="#00f0ff" class="font-mono" text-anchor="middle">ACADEMICS</text>
     
     <!-- Bold Typography Heading -->
-    <text x="25" y="85" font-size="28" font-weight="900" fill="#ffffff" class="font-sans" letter-spacing="-0.5">
-      BSc Hons <tspan fill="url(#grad-text-blue)">Software Engineering</tspan>
+    <text x="25" y="85" font-size="26" font-weight="900" fill="#ffffff" class="font-sans" letter-spacing="-0.5">
+      BSc Hons <tspan fill="url(#grad-text-blue)">Software Engineering — First Class</tspan>
     </text>
     
     <text x="25" y="120" font-size="14" fill="#e5e7eb" font-weight="700" class="font-sans">NSBM Green University / Plymouth University</text>
     
     <!-- Bio info columns (2-column layout to fill width nicely) -->
-    <g transform="translate(25, 138)" font-size="12.5" fill="#9ca3af" class="font-sans" font-weight="600">
-      <text x="0" y="10">• Final-year Undergraduate (Graduating Nov 2026)</text>
-      <text x="0" y="28">• IT Intern at Anunine Holdings</text>
+    <g transform="translate(25, 138)" font-size="12" fill="#9ca3af" class="font-sans" font-weight="600">
+      <text x="0" y="10">• First-Class Honours Degree (2022 – 2026)</text>
+      <text x="0" y="28">• IT Intern @ Anunine Holdings | Ex-Algoarts Intern</text>
       
-      <text x="410" y="10">• Focus: Full-Stack Dev &amp; Software Design</text>
-      <text x="410" y="28">• Passions: Gen AI, DevOps &amp; Automation</text>
+      <text x="410" y="10">• Focus: Multi-Tenant Portals, 3D WebGL &amp; WebSockets</text>
+      <text x="410" y="28">• Core Stack: Next.js 16, React 19, PHP 8, Electron, Node.js</text>
     </g>
 
     <!-- Floating bubbles to look interactive -->
